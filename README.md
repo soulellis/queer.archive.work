@@ -14,6 +14,6 @@ Printed Web 6 is the final issue of [Printed Web](https://en.wikipedia.org/wiki/
 
 ## Available 
 * September 20–23 at [2018 NY Art Book Fair](http://nyartbookfair.com/)
-* Launch event and readings Saturday, Sept 22 1:30pm–3:00pm in the MoMA PS1 Auditorium, during the NYABF
+* Launch event and readings Saturday, Sept 22 1:30pm–3:00pm in the MoMA PS1 Auditorium, during Printed Matter's NYABF
 * October 12–14 at [2018 Boston Art Book Fair](http://bostonartbookfair.com/) 
 * p2p at dat://queer.hashbase.io
