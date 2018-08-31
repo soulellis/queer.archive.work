@@ -67,7 +67,8 @@ a:hover {
 h2{
 	display: block;
 	position: relative;
-	font-size: 8rem;
+	font-size: 6rem;
+	line-height: 6rem;
 	color: #000000;
 	font-weight: normal;
 	text-align: left;
