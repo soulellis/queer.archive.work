@@ -1,5 +1,4 @@
 # Queer.Archive.Work
-Providence, RI
 
 Queer.Archive.Work is a 501(c)(3) nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond.
 
