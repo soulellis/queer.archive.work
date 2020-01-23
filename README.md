@@ -8,44 +8,39 @@ All visitors are welcome! This is a safe community space, open and free for all 
 
 ## QAW Code of Conduct
 
-At Queer.Archive.Work, we
-
 * Work openly
-Be generous
-Value full-time participation. What you put into this you will get out of it
-Speak with respect, assume the most respectful interpretation
-Step up, step back
+* Be generous
+* Value full-time participation. What you put in is what you will get out of it
+* Speak with respect and assume the most respectful interpretation
+* Step up, step back
+
 Unacceptable Behaviors:
 
-Violence, threats of violence or violent language directed against another person.
-Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-Posting or displaying sexually explicit or violent material.
-Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-Inappropriate physical contact. You should have someone’s consent before touching them.
-Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-Deliberate intimidation, stalking or following (online or in person).
-Advocating for, or encouraging, any of the above behavior.
+* Violence, threats of violence or violent language directed against another person
+* Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language
+* Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability
+* Inappropriate physical contact. You should have someone’s consent before touching them.
+* Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances
+* Deliberate intimidation, stalking or following (online or in person)
+* "One upping" and uninvited interruptions 
+* Advocating for, or encouraging, any of the above behavior
+
 Best practices:
 
-Photography: ask for permission
-Cleaning up your own mess! “I’m messy but not dirty”
-Respect our neighbors, especially the Westbeth residents
-defaulting to assumption that people are trying to be helpful
-safe (abilities, backgrounds not questioned, speak my mind, honest) - physically safe.
-Be respected
-Appreciating diversity - ESL (English as Second Language)
-get to know every single persons
-value asking questions, no bad or dumb questions
-Welcoming and shared space
-Respecting teachers / respect for everybody’s different path
-Mechanisms for feedback (plus/minus/interesting)
-not afraid of step out of comfort zone, and lost. try something new
-not afraid to share (skills? ideas?)
-framework for sharing what we are working on..
-Don’t want “one upping” no uninvited interruption, be aware of other people in the conversation
-Step forward, lean back (speaking up and listening are skills which you can improve.)
-No sexism, racism, ableism
-Principles of conversation
-Accountability / responsibility
+* Photography: ask for permission
+* Cleaning up your own mess! “I’m messy but not dirty”
+* Respect the other residents at Rooms & Works
+* Assume that people are trying to be helpful
+* Be safe 
+* Be respectful
+* Appreciate diversity, including ESL (English as Second Language)
+* Value questions and asking for help. There are no bad or dumb questions
+* Cultivate welcoming and shared spaces
+* Respect everyone’s different paths
+* Take creative risks outside of your comfort zone
+* Generosity: share skills and ideas
+* Be aware of other people in the conversation
+* Step forward, lean back (speaking up and listening are skills that you can always improve)
+* Be accountable and responsible
 
 Adapted from the School for Poetic Computation's Code of Conduct.
