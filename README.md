@@ -10,7 +10,7 @@ All visitors are welcome! This is a safe community space, open and free for all 
 
 * Work openly
 * Be generous
-* Value full-time participation. What you put in is what you will get out of it
+* Participate fully and responsibly
 * Speak with respect and assume the most respectful interpretation
 * Step up, step back
 
@@ -28,7 +28,7 @@ Unacceptable Behaviors:
 Best practices:
 
 * Photography: ask for permission
-* Cleaning up your own mess! “I’m messy but not dirty”
+* Clean up your mess 
 * Respect the other residents at Rooms & Works
 * Assume that people are trying to be helpful
 * Be safe 
