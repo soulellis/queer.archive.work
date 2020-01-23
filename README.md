@@ -6,4 +6,4 @@ QAW was founded in 2020 to support artists and writers with free, open access to
 
 All visitors are welcome! This is a safe community space, open and free for all (please see our code of conduct). Come by to chat about your work, use the risograph printer, or spend time in the reading room. QAW is on the west side of Providence at 40 Sprague Street #1G, Providence, RI 02907. Email Paul Soulellis at queer.archive.work@gmail.com if you want to visit.
 
-Check back here and follow on twitter (@QueerWork) for announcements.
+Check back here and follow on twitter (https://www.twitter.com/QueerWork) for announcements.
