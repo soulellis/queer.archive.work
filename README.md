@@ -1,12 +1,10 @@
-# QUEER.ARCHIVE.WORK (2018)
+# Queer.Archive.Work
+# Providence, RI
 
-QUEER.ARCHIVE.WORK is an urgent act of publishing that's radical, messy, and future-looking. It’s a signal sent out into muddy waters, the start of a speculative practice emerging from (and moving towards) the undercommons—a collective place for subversive artists and writers who reject normative narratives. THIS PUBLICATION IS A LOOSE ASSEMBLING OF QUEER METHODOLOGIES, WITH A PARTICULAR VIEW TOWARDS NETWORK CULTURE, FAILURE, AND REFUTATION. It’s an attempt to move far beyond the [_printed web_](https://printedweb.org "Printed Web"). IT’S AN EXPERIMENT IN PUBLISHING AS PRACTICE AS RESISTANCE. Edited by [Paul Soulellis](https://en.wikipedia.org/wiki/Paul_Soulellis "Paul Soulellis") in Pawtucket, RI. 
+Queer.Archive.Work is a 501(c)(3) nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond.
 
-## Contributors 
-[American Artist](https://americanartist.us/ "American Artist"), [Somnath Bhatt](https://somnathbhatt.com/ "Somnath Bhatt"), [Jeffrey Cheung and Gabriel Ramirez (Unity Press)](https://www.unityzines.com/ "Unity Press"), [Demian DinéYazhi’](http://pica.org/artists/demian-dineyazhi/ "Demian DinéYazhi’"), [Jack Halberstam](https://en.wikipedia.org/wiki/Jack_Halberstam "Jack Halberstam"), [shawné michaelain holloway](http://www.shawnemichaelainholloway.com/ "shawné michaelain holloway"), [Nora Khan](https://noranahidkhan.com/ "Nora Khan"), [nicole killian](http://www.nylondip.com/ "Nicole Killian"), [Be Oakley (GenderFail)](http://genderfailarchiveproject.com/ "Genderfail Archive Project"), [Porpentine Charity Heartscape](http://slimedaughter.com/ "Porpentine Charity Heartscape"), [Nate Pyper](http://natepyper.com/ "Nate Pyper"), and [Sal Randolph](http://salrandolph.com/ "Sal Randolph"). 
+QAW was founded in 2020 to support artists and writers with free, open access to space and resources for experimental publishing, with a special focus on queer practices. QAW includes a non-circulating library of books, zines, and objects, a risograph printer, and project installation space. QAW strives to be accountable, to center marginalized voices through intersectional work, and to cultivate inclusive, safe platforms for independent, queer publishing.
 
-## Available 
-* September 20–23 at [2018 NY Art Book Fair](http://nyartbookfair.com/ "2018 NYABF")
-* Launch event and readings Saturday, Sept 22 1:30pm–3:00pm in the MoMA PS1 Auditorium, during Printed Matter's NYABF
-* October 12–14 at [2018 Boston Art Book Fair](http://bostonartbookfair.com/ "2018 Boston Art Book Fair") 
-* p2p at dat://queer.hashbase.io
+All visitors are welcome! This is a safe community space, open and free for all (please see our code of conduct). Come by to chat about your work, use the risograph printer, or spend time in the reading room. QAW is on the west side of Providence at 40 Sprague Street #1G, Providence, RI 02907. Email Paul Soulellis if you want to visit.
+
+Check back here and follow on twitter (@QueerWork) for announcements.
