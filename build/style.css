@@ -4,8 +4,11 @@
 
 @font-face {
   font-family: "ArialNarrow";
-  src: url('/build/font/ArialNarrow.woff') format('woff'),
-  src: url('/build/font/ArialNarrow.ttf') format('truetype');
+	src: local("ArialNarrow");
+	src: local("Arial-Narrow");
+  	src: url("/build/font/ArialNarrow.woff2") format("woff2");
+  	src: url("/build/font/ArialNarrow.woff") format("woff");
+   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -34,7 +37,6 @@ body{
 div{
 	padding: 0px;
 	margin: 0px;
-	line-height: 6rem;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -45,6 +47,46 @@ div{
   	hyphens: auto;
 }
 
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 100%) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: auto%;
+    flex: auto;
+    max-width: auto;
+  }
+}
 
 
 a{
@@ -76,7 +118,6 @@ a:hover {
 h2{
 	display: block;
 	position: relative;
-	font-size: 6rem;
 	color: #000000;
 	font-weight: normal;
 	text-align: left;
