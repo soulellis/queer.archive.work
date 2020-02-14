@@ -4,7 +4,7 @@ Queer.Archive.Work is a nonprofit reading room, publishing studio, and project s
 
 QAW was founded in 2020 to support artists and writers with free, open access to space and resources for experimental publishing, with a special focus on queer practices. QAW includes a non-circulating library of books, zines, and objects, a risograph printer, and project installation space. QAW strives to be accountable, to center marginalized voices through intersectional work, and to cultivate inclusive, safe platforms for independent, queer publishing.
 
-All visitors are welcome! This is a safe community space, open and free for all (please see our code of conduct). Come by to chat about your work, use the risograph printer, or spend time in the reading room. QAW is on the west side of Providence at 40 Sprague Street #1G, Providence, RI 02907. Email Paul Soulellis at queer.archive.work@gmail.com if you want to visit.
+All visitors are welcome! This is a safe community space, open and free for all (please see our code of conduct below). Come by to chat about your work, use the risograph printer, or spend time in the reading room. QAW is on the west side of Providence at 40 Sprague Street #1G, Providence, RI 02907. [Email Paul Soulellis] (mailto:queer.archive.work@gmail.com) if you would like to visit.
 
 ## QAW Code of Conduct
 
