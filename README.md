@@ -1,6 +1,6 @@
 # Queer.Archive.Work
 
-Queer.Archive.Work is a 501(c)(3) nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond.
+Queer.Archive.Work is a nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond (501(c)(3) status pending).
 
 QAW was founded in 2020 to support artists and writers with free, open access to space and resources for experimental publishing, with a special focus on queer practices. QAW includes a non-circulating library of books, zines, and objects, a risograph printer, and project installation space. QAW strives to be accountable, to center marginalized voices through intersectional work, and to cultivate inclusive, safe platforms for independent, queer publishing.
 
