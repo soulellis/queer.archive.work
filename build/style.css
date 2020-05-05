@@ -118,7 +118,7 @@ a:hover {
 p{
 	padding: 5vw;
 	margin: 1vw;
-	border-style: dashed; color: #000000;
+	border-style: dashed; border-color: black;
 
 
 }
