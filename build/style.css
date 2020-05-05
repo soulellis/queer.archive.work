@@ -102,7 +102,7 @@ a:link {
 
 a:hover {
 	background-color: black;
-	color: #ff3300;
+	color: blueviolet;
 }
 
 a:visited {
@@ -112,7 +112,7 @@ a:visited {
 
 a:hover {
 	background-color: black;
-	color: #ff3300;
+	color: blueviolet;
 }
 
 p{
