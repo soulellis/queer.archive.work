@@ -96,23 +96,29 @@ a{
 }
 
 a:link {
-	color: #9900ff;
-	text-decoration: none;
+	color: black;
+	text-decoration: underline;
 }
 
 a:hover {
-	background-color: #9900ff;
-	color: #000000;
+	background-color: #ff000000;
+	color: #ff3300;
 }
 
 a:visited {
-	color: #9900ff;
-	text-decoration: none;
+	color: black;
+	text-decoration: underline;
 }
 
 a:hover {
-	background-color: #9900ff;
-	color: #ffff00;
+	background-color: #000000;
+	color: #ff3300;
+}
+
+p {
+    margin: 1vw;
+    padding: 3vw;
+    border: 2px dashed #000000;
 }
 
 h2{
