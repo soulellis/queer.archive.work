@@ -59,7 +59,12 @@ function checkTime(i) {
 }
 </script>
 
-
+<httpProtocol>
+  <customHeaders>
+    <add name="Content-Security-Policy" value="frame-ancestors https://www.<preferredwebsitedomain>.com" />
+    <!-- Test this option as Chrome supports CSP now for Iframe opening-->
+  </customHeaders>
+</httpProtocol>
 
 </head>
 
@@ -130,7 +135,7 @@ A few notes&mdash;&mdash;&mdash;
 <br>
 <br>
 
-<p><span style="background-color: black; color: #FF0066">Take a second to locate and introduce yourself in the chat </span>&mdash;your name, your pronouns, and your location. <em>Who&rsquo;s here? Where are you?</em> Write anything you like.
+<p><span style="background-color: black; color: #FF0066">Take a second to say hi in the chat </span>&mdash;your name, your pronouns, and your location. <em>Who&rsquo;s here? Where are we?</em> Write anything you like.
 </p>
 
 <br>
@@ -147,7 +152,7 @@ A few notes&mdash;&mdash;&mdash;
 <br>
 </div>
 
-<p><span style="background-color: black; color: #FF0066">A few things about this space.</span> QAW is a community space. I&rsquo;m interested in how a place like this can be porous, like a sponge, enabling people, voices, ideas and materials to easily flow in and out. This means removing as many barriers to access as possible, which is hard to do, and we&rsquo;re still learning and figuring that out. We&rsquo;re about to launch a Riso Residency program, so we&rsquo;ll get a chance to try this out over the next year, as people come to use the space in unexpected ways, in ways that support their own work. 
+<p><span style="background-color: black; color: #FF0066">A few things about this space.</span> QAW is a community space. I&rsquo;m interested in how a place like this can be porous, like a sponge, enabling people, voices, ideas and materials to easily flow in and out. This means removing as many barriers to access as possible, which is hard to do, and we&rsquo;re still learning and figuring that out. We&rsquo;re about to launch a <a href="https://queer.archive.work/residency/index.html" target="_blank">Riso Residency</a> program, so we&rsquo;ll get a chance to try this out over the next year, as people come to use the space in unexpected ways, in ways that support their own work. 
 </p>
 
 <br>
@@ -163,14 +168,14 @@ A few notes&mdash;&mdash;&mdash;
 
 
 
-<p><span style="background-color: black; color: #FF0066">Before QAW was a physical space, it was a publication.</span> I tried to design these publications so that they came in parts that have no specific order or hierarchy attached to them. They&rsquo;re designed to make a mess&mdash;to gather people together who use queer practices in their writing and artwork, and let them be in conversation together, in unexpected ways.</p>
+<p><span style="background-color: black; color: #FF0066">Before QAW was a physical space, it was a publication.</span> I tried to design these publications so that they came apart without any presumed order or hierarchy. They&rsquo;re designed to make a mess&mdash;to gather people who use queer practices in their writing and artwork, and let them be in conversation together in the space of a publication, in unexpected ways.</p>
 <br>
 <br>
 
 <img src="bkabf9.jpg" style="max-width: 97%; display: block; margin-left: auto; margin-right: auto;">
 <br>
 
-<p>	<span style="background-color: black; color: #FF0066">What do I mean by queer here:</span> I mean tactics like refusal, resistance, and illegibility, and other ways that are used by artists and designers and activists and poets to try to loosen power. Through the work that they produce but also how they work, in their practice. I&rsquo;ve also called it <a href="https://soulellis.com/writing/urgentcraft2/" target="_blank"><em>urgentcraft</em></a>. From these messy projects I also learned that a publishing practice can be a way to model care, in all of its relationships and collaborations and even in how its forms are disseminated. Un-learning what we know about publishing, and questioning the form of the publication itself, and what it can be. 
+<p>	<span style="background-color: black; color: #FF0066">What do I mean by queer here:</span> I mean the use of tactics like refusal, resistance, and illegibility, and other ways that artists and designers and activists and poets try to loosen power. Both through the work that they produce but also <em>how</em> they work in their practice. I&rsquo;ve also called it <a href="https://soulellis.com/writing/urgentcraft2/" target="_blank"><em>urgentcraft</em></a>. From these messy projects I also learned that a publishing practice can be a way to model care, in all of its relationships and collaborations and even in how its forms are disseminated and circulate. Un-learning what we know about publishing, and questioning the form of the publication itself, and what it can be. 
 </p>
 
 <br>
@@ -190,13 +195,13 @@ A few notes&mdash;&mdash;&mdash;
 <img src="bkabf2.jpg" style="max-width: 97%; display: block; margin-left: auto; margin-right: auto;">
 <br>
 
-<p>	The people included here may or may not identify as queer, a good number of them do, but many of these artists are underserved or minoritized in other ways, and each artist is doing something in their work to challenge normative ideas about how to make, how to share that work, how to think about art and design. So there&rsquo;s an interesting discussion to be had here around the word <em>queer</em>, both as a noun, a way to describe someone or something, as well as <em>queering</em> as a verb&mdash;what it means <span style="background-color: black; color: #FF0066">to queer something, to reverse it, twist it, to turn it into a mess, to challenge inherent power structures.</span></p> 
+<p>	The people included here may or may not identify as queer, a good number of them do, but many of these artists are underserved or minoritized in other ways, and each artist is doing something in their work to challenge normative ideas about how to make, how to share, and how to use art and design to resist. So there&rsquo;s an interesting discussion to be had here around the word <em>queer</em>, both as a noun, a way to describe someone or something, as well as <em>queering</em> as a verb&mdash;what it means <span style="background-color: black; color: #FF0066">to queer something, to reverse it, twist it, to turn it into a mess, to challenge inherent power structures.</span></p> 
 <br>
 <img src="bkabf1.jpg" style="max-width: 97%; display: block; margin-left: auto; margin-right: auto;">
 <br>
 
 
-<p>	<span style="background-color: black; color: #FF0066">Making a mess and staying with the mess, as a way to stay with the trouble, is a large part of why I started this space.</span> It&rsquo;s trying to be an alternative to other kinds of spaces that typically prioritize order and exclusivity and exceptionalism, like big art and design institutions, for example, or galleries or museums or mainstream publishers. 
+<p>	<span style="background-color: black; color: #FF0066">Making a mess and staying with the mess, as a way to stay with the trouble, is a large part of why I started this space.</span> It&rsquo;s trying to be an alternative to other kinds of spaces that typically prioritize order and exclusivity and exceptionalism, like big art and design schools, museums, galleries, and mainstream publishers. 
 </p>
 
 <br>
@@ -220,7 +225,7 @@ A few notes&mdash;&mdash;&mdash;
 <img src="bkabf16.jpg" style="max-width: 97%; display: block; margin-left: auto; margin-right: auto;">
 <br>
 
-<p>	It&rsquo;s a remarkable document, <span style="background-color: black; color: #FF0066">an urgent artifact.</span> It marks the moment. It&rsquo;s a kind of archive itself, a time capsule of how a particular group of people was seeing and feeling and expressing during crisis. I like to use the term <a href="https://www.instagram.com/p/B9ruDSPgcLi/" target="_blank">&ldquo;commoning-in-the-crisis&rdquo;</a> here, named by the activist group <a href="https://decolonizethisplace.org/" target="_blank">Decolonize This Place</a> on March 13, just as the pandemic hit the US.</p> 
+<p>	It&rsquo;s a remarkable collection of <span style="background-color: black; color: #FF0066">urgent artifacts.</span> It marks the moment. It&rsquo;s a kind of archive itself, a time capsule of how a particular group of people was seeing and feeling and expressing during crisis. I like to use the term <a href="https://www.instagram.com/p/B9ruDSPgcLi/" target="_blank">&ldquo;commoning-in-the-crisis&rdquo;</a> here, named by the activist group <a href="https://decolonizethisplace.org/" target="_blank">Decolonize This Place</a> on March 13, just as the pandemic hit the US.</p> 
 
 	
 <p>	Feel free to <a href="https://queer.archive.work/urgencyreader2/" target="_blank">download the entire reader</a> to take a closer look.
@@ -230,7 +235,7 @@ A few notes&mdash;&mdash;&mdash;
 <img src="bkabf28.jpg" style="max-width: 97%; display: block; margin-left: auto; margin-right: auto;">
 <br>
 
-<p>Another idea I&rsquo;d like to point us to is here inside <em>Urgency Reader 2</em>, in a piece of writing titled <span style="background-color: black; color: #FF0066">&ldquo;Digital Attunement (<em>an introduction</em>),&rdquo;</span> submitted by <a href="https://www.tiararoxanne.com/about.html" target="_blank">Tiara Roxanne</a>, an Indigenous cyberfeminist and scholar based in NYC and Berlin. In this text, Tiara introduces the concept of digital attunement as a way to think about how we might connect and be together in our current condition. Thinking specifically about the digital here, and environments like the one that we&rsquo;re in right now. 
+<p>A specific idea I&rsquo;d like to point us to is here inside <em>Urgency Reader 2</em>, in a piece of writing titled <span style="background-color: black; color: #FF0066">&ldquo;Digital Attunement (<em>an introduction</em>),&rdquo;</span> submitted by <a href="https://www.tiararoxanne.com/about.html" target="_blank">Tiara Roxanne</a>, an Indigenous cyberfeminist and scholar based in NYC and Berlin. In this text, Tiara introduces the concept of <em>digital attunement</em> as a way to think about how to connect and gather in our current condition. Thinking specifically about the digital here, and environments like the one that we&rsquo;re in right now. 
 </p>
 
 <br>
@@ -250,9 +255,15 @@ A few notes&mdash;&mdash;&mdash;
 	<br>
 
 <span style=" display: block; padding-left: 3vw; padding-right: 3vw;">
-<em>&ldquo;. . . digital attunement serves as a dynamic model of body to body memory facilitated by the machine, we form memory together and as networks are limiting and the restraints of the network extend globally which increases the necessity to develop new forms of understanding inter-connectedness as a means of resistance and survival but also now to extend into Fred Moten&rsquo;s &lsquo;grammar of together,&rsquo; or togetherness, and the need to be physically distant, i want to ask how we can inscribe our own rituals, how to develop daily practices of togetherness, how to establish a new tradition of digitally attuning together, that does not appropriate Indigenous tradition or ritual, but acknowledges the sacredity therein, learns from it and assist in gestures of decolonization and togetherness within the digital because after all, we are in it together, we are in this together.&rdquo;</em></span>
+<em>&ldquo;. . . digital attunement serves as a dynamic model of body to body memory facilitated by the machine, we form memory together . . . i want to ask how we can inscribe our own rituals, how to develop daily practices of togetherness, how to establish a new tradition of digitally attuning together, that does not appropriate Indigenous tradition or ritual, but acknowledges the sacredity therein, learns from it and assist in gestures of decolonization and togetherness within the digital because after all, we are in it together, we are in this together.&rdquo;</em></span>
 </p>
 
+<br>
+	<div align="center">
+		<img src="bkabf30.png" style="max-width: 75%;">
+<h4><em><a href="https://www.youtube.com/embed/VevVQ9xeUNc" target="_blank">Dr. Fred Moten, &ldquo;This Is How We Fellowship,&rdquo; January 19, 2020</a></em></h4>
+
+</div>
 <br>
 <br>
 <br>
@@ -285,7 +296,7 @@ in it together, <br>
 <br>
 <img src="bkabf11.png" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;">
 
-<p>I got to experience a different kind of attunement recently when <a href="https://www.salrandolph.com/" target="_blank">Sal Randolph</a> and <a href="https://www.instagram.com/gracious_dave/" target="_blank">David Richardson</a>, who run another publishing space called <a href="http://dispersedholdings.net/" target="_blank">Dispersed Holdings</a>, held a &ldquo;reading zoom.&rdquo; It was a generous invitation to simply read together, in silence, in a zoom space they had set up. A few of us came on at first and then gradually others joined in. There was something so beautiful about this experience for me, watching and listening and also, yes, reading, communally. It felt luxurious and very much like a privilege, to slow down and take the time to do this. There was no denying that we were connected in our silence, but much of it had to do with listening, in an ambient kind of way, but not entirely casual either. <span style="background-color: black; color: #FF0066">Carefully attuned.</span>  
+<p>I got to experience a different kind of attunement recently when <a href="https://www.salrandolph.com/" target="_blank">Sal Randolph</a> and <a href="https://www.instagram.com/gracious_dave/" target="_blank">David Richardson</a>, who run another publishing space called <a href="http://dispersedholdings.net/" target="_blank">Dispersed Holdings</a>, held a &ldquo;reading zoom.&rdquo; It was a generous invitation to simply read together, in silence, in a zoom space they had set up. A few of us came on at first and then gradually others joined. There was something so beautiful about this experience, watching and listening and also, yes, reading, communally. It was luxurious and very much a privilege, to slow down and take the time to do this. There was no denying that we were connected in our silence, but much of it had to do with listening, in an ambient kind of way, but not entirely casual either. <span style="background-color: black; color: #FF0066">Carefully attuned.</span>  
 </p>
 
 <br>
@@ -312,7 +323,7 @@ in it together, <br>
 <p><span style="background-color: black; color: #FF0066"><em>Listen</em></span> (1 minute)
 	<br>
 	<br>
-Turn off your camera, and turn on your sound. Everyone unmute. Let&rsquo;s just listen, for a minute.  
+Turn off your camera, and turn on your sound. Everyone unmute. Close your eyes if you like. Let&rsquo;s just listen, for a minute.  
 </p>
 
 <br>
@@ -354,7 +365,7 @@ Come back into the frame. If you&rsquo;re able to, hold our hands up to the came
 <br>
 <br>
 
-<p>Alright, deep breath. 
+<p>Deep breath. 
 </p>
 
 <br>
@@ -366,7 +377,7 @@ Come back into the frame. If you&rsquo;re able to, hold our hands up to the came
 <br>
 <br>
 
-<p>There are X number of us here on this zoom. What I&rsquo;d like us to propose is that we make <span style="background-color: black; color: #FF0066">a collective publication.</span> It&rsquo;s going to be X number of pages, one page for each of you. Each of you will contribute one page. That page will be whatever you share on your screen for all of us to see, which I will capture as an image on my end. That can either be your entire desktop, or just one particular screen. When you go to screen share, you&rsquo;ll see that option.  
+<p>There are X number of us here on this zoom. What I&rsquo;d like to propose is that we make <span style="background-color: black; color: #FF0066">a collective print publication.</span> It&rsquo;s going to be X number of pages, one page for each of you. Each of you will contribute one page. That page will be whatever you share on your screen for all of us to see, which I will capture as an image on my end. That can either be your entire desktop, or just one particular screen. When you go to screen share, you&rsquo;ll see that option.  
 </p>
 
 <br>
@@ -397,13 +408,14 @@ Come back into the frame. If you&rsquo;re able to, hold our hands up to the came
 <em>Who&rsquo;s here?<br>
 Where are we?<br>
 What do I need?<br>
-What do we need?</em>
+What do we* need?</em>
 <br>
 <br>
-<iframe src="http://free.timeanddate.com/clock/i7cgnbx5/n878/szw400/szh400/hoc000/hbw0/hfcf06/cf100/hgr0/fiv0/fas26/fdi76/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="400" height="400"></iframe>
-
+<iframe src="http://free.timeanddate.com/clock/i7cgnbx5/n878/szw275/szh275/hoc000/hbw0/hfcf06/cf100/hgr0/fiv0/fas26/fdi76/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="275" height="275"></iframe>
+<br>
 </p>
 
+<div style="padding-left: 1em">*the <em>we</em> is up to you</div>
 <br>
 <br>
 <br>
@@ -417,7 +429,7 @@ What do we need?</em>
 <p>Your response can be anything. An image, a single word, a longer piece of writing, an assemblage that you put together on your desktop. Anything at all. And if these questions don&rsquo;t do it for you, feel free to offer up anything else. Have fun with it, be silly, get serious, whatever you want. 
 <br>
 <br>
-	The goal will be to share our screens after 20 minutes. We&rsquo;ll go through them one by one and I&rsquo;ll screenshot them so that I&rsquo;ve captured them as images. Later, I&rsquo;ll print them on the risograph, assemble them, and mail the publication to you. <span style="background-color: black; color: #FF0066">It&rsquo;s just for us. A record of this moment that we were all in together.</span>
+	The goal will be to share our screens after 20 minutes. We&rsquo;ll go through them one by one and I&rsquo;ll screenshot them so that I&rsquo;ve got them as images. Later, I&rsquo;ll print them on the risograph, assemble them, and mail the publication to you. <span style="background-color: black; color: #FF0066">It&rsquo;s just for us. A record of this moment that we were all in together.</span>
 </p>
 
 <br>
@@ -433,7 +445,7 @@ What do we need?</em>
 <br>
 <br>
 Thank you!
-<br><a href="mailto:paul@soulellis.com">paul@soulellis.com</a>
+<br><a href="mailto:paul@soulellis.com" target="_blank">paul@soulellis.com</a>
 </p>
 
 
