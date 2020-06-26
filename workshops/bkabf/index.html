@@ -59,12 +59,6 @@ function checkTime(i) {
 }
 </script>
 
-<httpProtocol>
-  <customHeaders>
-    <add name="Content-Security-Policy" value="frame-ancestors https://www.<preferredwebsitedomain>.com" />
-    <!-- Test this option as Chrome supports CSP now for Iframe opening-->
-  </customHeaders>
-</httpProtocol>
 
 </head>
 
@@ -409,13 +403,44 @@ Come back into the frame. If you&rsquo;re able to, hold our hands up to the came
 Where are we?<br>
 What do I need?<br>
 What do we* need?</em>
-<br>
-<br>
-<iframe src="http://free.timeanddate.com/clock/i7cgnbx5/n878/szw275/szh275/hoc000/hbw0/hfcf06/cf100/hgr0/fiv0/fas26/fdi76/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="275" height="275"></iframe>
-<br>
 </p>
-
 <div style="padding-left: 1em">*the <em>we</em> is up to you</div>
+
+
+
+<style type="text/css">
+iframe {
+  border: none;
+  width: 100%;
+  height: 275px;
+}
+
+@media (min-width: 1024px) {
+  .content_viewport {
+    border: 0px none;
+    height: 275px;
+width: 100%;
+  }
+}
+@media (max-width: 1023px) {
+  .content_viewport {
+    border: 0px none;
+    height: 275px;
+width: 100%;  }
+}
+@media (min-width: 768px) {
+  .content_viewport {
+    border: 0px none;
+    height: 275px;
+width: 100%;  }
+}
+</style>
+
+<div style=" overflow: hidden; margin: 15px auto; max-width: 880px;"><iframe class="content_viewport" scrolling="no" src="http://free.timeanddate.com/clock/i7cgnbx5/n878/szw275/szh275/hoc000/hbw0/hfcf06/cf100/hgr0/fiv0/fas26/fdi76/mqv0/mhc000/mhs3/mhl20/mhw1/mhd84/mmv0/hhs1/hms1/hsc000/hss1" frameborder="0" width="275" height="275" align="center"></iframe>
+</div>
+
+
+
 <br>
 <br>
 <br>
