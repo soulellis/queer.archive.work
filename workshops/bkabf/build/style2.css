@@ -70,6 +70,39 @@ div{
   width: 100%;
 }
 
+
+<style type="text/css">
+iframe {
+  border: none;
+  width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 1024px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;
+  }
+}
+@media (max-width: 1023px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;  }
+}
+@media (min-width: 768px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;  }
+}
+</style>
+<div style=" overflow: hidden; margin: 15px auto; max-width: 880px;"><iframe class="content_viewport" scrolling="no" src="<Your URL>"></iframe>
+<p>&nbsp;</p>
+</div>
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 100%) {
   .column {
