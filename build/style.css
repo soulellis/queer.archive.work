@@ -89,21 +89,26 @@ div{
 }
 
 
-a{
-	color: #cccccc;
-	text-decoration: none;
 
+
+.colorblock2 {
+	text-align: center;
+	color: blueviolet;
+	border: 0px;
+	background-color: #000000;
+	margin: 1rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
-a:link {
+
+
+
+a {
 	color: black;
 		text-decoration: underline;
 }
 
-a:hover {
-	background-color: black;
-	color: blueviolet;
-}
 
 a:visited {
 	color: black;
@@ -115,14 +120,73 @@ a:hover {
 	color: blueviolet;
 }
 
+a.nav {color: blueviolet; text-decoration: underline;}
+a.nav:link {color: blueviolet; text-decoration: underline;}
+a.nav:hover {background-color: blueviolet; color: black; text-decoration: underline;}
+
+
+
 p{
 	padding: 5vw;
 	margin: 1vw;
 	border-style: dashed; border-color: black;
+}
 
+
+
+.colorblock {
+	border: 0px;
+	margin: 1vw;
+	padding: 1rem;
+	background-color: #ff3300
 
 }
 
+
+.colorblock2 {
+	text-align: center;
+	color: blueviolet;
+	border: 0px;
+	background-color: #000000;
+	margin: 1rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+.colorblock3 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: goldenrod;
+}
+
+.colorblock4 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: rosybrown;
+}
+
+.colorblock5 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: maroon;
+}
+
+.colorblock6 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: deepskyblue;
+}
+
+.colorblock7 {
+	text-align: center;
+	color: black;
+	border: 0px;
+	background-color: deepskyblue;
+	margin: 1rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
 
 h2{
 	display: block;
@@ -163,8 +227,8 @@ h4{
 h5{
 	display: block;
 	position: relative;
-	font-size: 10vw;
-	line-height: 10vw;
+	font-size: 8vw;
+	line-height: 9vw;
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
@@ -172,4 +236,15 @@ h5{
 	margin: 0;
 }
 
+h6{
+	display: block;
+	position: relative;
+	font-size: 3vw;
+	line-height: 3vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
 
