@@ -1,0 +1,240 @@
+<!DOCTYPE css>
+
+	/* soulellis.com */
+
+@font-face {
+  font-family: "ArialNarrow";
+	src: local("ArialNarrow");
+	src: local("Arial-Narrow");
+  	src: url("/build/font/ArialNarrow.woff2") format("woff2");
+  	src: url("/build/font/ArialNarrow.woff") format("woff");
+   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	font-family: "ArialNarrow", ArialNarrow, Arial, sans-serif;
+	max-width: 1750px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+body{
+	min-height: 100vh;
+	padding-bottom: 4rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+div{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphenate-limit-chars: auto 3;
+  	hyphenate-limit-lines: 3;
+  	hyphens: auto;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  width: 33.33%;
+  padding: 2vw;
+  height: auto; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column img {
+  margin-top: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink: 1;
+	flex-grow: 4;
+	flex-basis: auto;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+.container img {
+	max-width: 32%;
+}
+
+
+a:name {
+	color: black;
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: underline;
+}
+
+
+a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	background-color: #000000;
+	color: #ff3300;
+}
+
+p {
+    margin: 0vw;
+    padding: 0vw;
+    border: 2px dashed #000000;
+}
+
+.profile {
+    margin: 0vw;
+    padding-top: 2vw;
+    padding-right: 1rem;
+    border: 0px dashed #000000;
+}
+
+.textblock {
+	margin: 1vw;
+	padding: 5vw;
+	padding-right: 5vw;
+	border: 2px dashed black;
+}
+
+.colorblock {
+	border: 0px;
+	margin: 1vw;
+	padding: 1rem;
+	background-color: #ff3300
+
+}
+
+
+.colorblock2 {
+	border: 0px;
+	background-color: #000000
+}
+
+.colorblock3 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: goldenrod;
+}
+
+.colorblock4 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: rosybrown;
+}
+
+.colorblock5 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: maroon;
+}
+
+.colorblock6 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: deepskyblue;
+}
+
+.colorblock7 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: plum;
+}
+
+
+
+h2{
+	display: block;
+	position: relative;
+	color: #000000;
+	font-size: 4vw;
+	line-height: 4.75vw;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+	display: block;
+	position: relative;
+	font-size: 4vw;
+	line-height: 4.75vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+h4{
+	display: block;
+	position: relative;
+	font-size: 2vw;
+	line-height: 2vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h5{
+	display: block;
+	position: relative;
+	font-size: 8vw;
+	line-height: 9vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h6{
+	display: block;
+	position: relative;
+	font-size: 3vw;
+	line-height: 3vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
