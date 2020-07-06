@@ -133,6 +133,10 @@ p {
     padding-top: 2vw;
     padding-right: 1rem;
     border: 0px dashed #000000;
+    -moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .textblock {
@@ -140,50 +144,82 @@ p {
 	padding: 5vw;
 	padding-right: 5vw;
 	border: 2px dashed black;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .colorblock {
 	border: 0px;
 	margin: 1vw;
 	padding: 1rem;
-	background-color: #ff3300
-
+	background-color: #ff3300;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 
 .colorblock2 {
 	border: 0px;
-	background-color: #000000
+	background-color: #000000;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+
 }
 
 .colorblock3 {
 	border: 0px;
 	padding: 1.5rem;
 	background-color: goldenrod;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .colorblock4 {
 	border: 0px;
 	padding: 1.5rem;
 	background-color: rosybrown;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .colorblock5 {
 	border: 0px;
 	padding: 1.5rem;
 	background-color: maroon;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .colorblock6 {
 	border: 0px;
 	padding: 1.5rem;
 	background-color: deepskyblue;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 .colorblock7 {
 	border: 0px;
 	padding: 1.5rem;
 	background-color: plum;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
 }
 
 
