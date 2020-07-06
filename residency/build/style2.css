@@ -48,49 +48,50 @@ div{
 }
 
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+/* Create three equal columns that floats next to each other */
+.column {
+  width: 33.33%;
+  padding: 2vw;
+  height: auto; 
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 100%;
-  padding: 0 4px;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: auto;
   vertical-align: middle;
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 100%) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-shrink: 1;
+	flex-grow: 4;
+	flex-basis: auto;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: auto%;
-    flex: auto;
-    max-width: auto;
-  }
+
+.container img {
+	max-width: 32%;
+}
+
+
+a:name {
+	color: black;
 }
 
 
 a{
-	color: #cccccc;
+	color: black;
 	text-decoration: none;
 
 }
@@ -100,10 +101,6 @@ a:link {
 	text-decoration: underline;
 }
 
-a:hover {
-	background-color: #ff000000;
-	color: #FF0077;
-}
 
 a:visited {
 	color: black;
@@ -112,14 +109,75 @@ a:visited {
 
 a:hover {
 	background-color: #000000;
-	color: #FF0077;
+	color: #ff3300;
 }
 
 p {
-    margin: 1vw;
-    padding: 3vw;
+    margin: 0vw;
+    padding: 0vw;
     border: 2px dashed #000000;
 }
+
+.profile {
+    margin: 0vw;
+    padding-top: 2vw;
+    padding-right: 1rem;
+    border: 0px dashed #000000;
+}
+
+.textblock {
+	margin: 1vw;
+	padding: 5vw;
+	padding-right: 5vw;
+	border: 2px dashed black;
+}
+
+.colorblock {
+	border: 0px;
+	margin: 1vw;
+	padding: 1rem;
+	background-color: #ff3300
+
+}
+
+
+.colorblock2 {
+	border: 0px;
+	background-color: #000000
+}
+
+.colorblock3 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: goldenrod;
+}
+
+.colorblock4 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: rosybrown;
+}
+
+.colorblock5 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: maroon;
+}
+
+.colorblock6 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: deepskyblue;
+}
+
+.colorblock7 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: plum;
+}
+
+
+
 h2{
 	display: block;
 	position: relative;
@@ -159,8 +217,8 @@ h4{
 h5{
 	display: block;
 	position: relative;
-	font-size: 10vw;
-	line-height: 10vw;
+	font-size: 8vw;
+	line-height: 9vw;
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
@@ -168,4 +226,15 @@ h5{
 	margin: 0;
 }
 
+h6{
+	display: block;
+	position: relative;
+	font-size: 3vw;
+	line-height: 3vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
 
