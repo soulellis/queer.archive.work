@@ -2,9 +2,19 @@
 
 	/* soulellis.com */
 
+
+* {
+-moz-hyphens:none;
+-ms-hyphens:none;
+-webkit-hyphens: none;
+hyphens:none;
+}
+
+
 @font-face {
   font-family: "Arial Narrow";
 	src: local("Arial Narrow");
+	src: local("ArialNarrow");
 	src: local("Arial-Narrow");
   	src: url("/build/font/ArialNarrow.woff2") format("woff2");
   	src: url("/build/font/ArialNarrow.woff") format("woff");
