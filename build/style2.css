@@ -1,0 +1,376 @@
+<!DOCTYPE css>
+
+	/* queer.archive.work */
+
+
+* {
+-moz-hyphens:none;
+-ms-hyphens:none;
+-webkit-hyphens: none;
+hyphens:none;
+}
+
+
+@font-face {
+  font-family: "Arial Narrow";
+	src: local("Arial Narrow");
+	src: local("ArialNarrow");
+	src: local("Arial-Narrow");
+  	src: url("/build/font/ArialNarrow.woff2") format("woff2");
+  	src: url("/build/font/ArialNarrow.woff") format("woff");
+   	src: url("/build/font/ArialNarrow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
+	max-width: 1750px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+body{
+	min-height: 100vh;
+	padding-bottom: 1vw;
+	padding-top: 1vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+div{
+	margin: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphenate-limit-chars: auto 3;
+  	hyphenate-limit-lines: 3;
+  	hyphens: auto;
+}
+
+
+@media screen and (min-width: 1050px) {
+  div.example {
+    font-size: 40px;
+    line-height: 4.5rem;
+
+  }
+}	
+
+@media screen and (max-width: 1049px) {
+  div.example {
+    font-size: 30px;
+    line-height: 3.5rem;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 20px;
+	line-height: 2.25rem;
+  }
+}
+body {background-color: blueviolet}		
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column4 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 6px;
+}
+
+.column4 img {
+  margin-top: 1rem;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column3 {
+  width: 33.33%;
+  padding: 1vh;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column3 img {
+  vertical-align: middle;
+  width: 100%;
+  padding: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 100%) {
+  .column4 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column4 {
+    -ms-flex: auto%;
+    flex: auto;
+    max-width: auto;
+    margin: none;
+    padding: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column2 {
+    -ms-flex: auto%;
+    flex: auto;
+    max-width: auto;
+    margin: none;
+    padding: none;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+  }
+
+  .column3 img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .column3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .column3 img {
+    width: 100%;
+    padding-top: none;
+    padding-bottom: none;
+  }
+
+}
+
+a:name {
+	color: black;
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: underline;
+}
+
+
+a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	background-color: #000000;
+	color: blueviolet;
+}
+
+
+a.nav {color: blueviolet; text-decoration: underline;}
+a.nav:link {color: blueviolet; text-decoration: underline;}
+a.nav:hover {background-color: blueviolet; color: black; text-decoration: underline;}
+
+a.red:hover {background-color: black; color: #ff3300; text-decoration: underline;}
+
+
+
+.profile {
+	margin: auto;
+    padding-right: 1rem;
+    border: 0px dashed #000000;
+    -moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.textblock {
+	margin: auto;
+	padding: 5vw;
+	padding-right: 5vw;
+	border: 2px solid black;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock {
+	border: 0px;
+	padding: 1rem;
+	background-color: #ff3300;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+
+.colorblock2 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: #000000;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock3 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: goldenrod;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock4 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: rosybrown;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock5 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: maroon;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock6 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: deepskyblue;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock7 {
+	border: 0px;
+	padding: 1.5rem;
+	background-color: plum;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+p{
+	padding: 1rem;
+	margin: auto;
+}
+
+
+h2{
+	color: #000000;
+	font-size: 4vw;
+	line-height: 4.75vw;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3{
+	display: block;
+	position: relative;
+	font-size: 4vw;
+	line-height: 4.75vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+h4{
+	display: block;
+	position: relative;
+	font-size: 2vw;
+	line-height: 2vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h5{
+	display: block;
+	position: relative;
+	font-size: 8vw;
+	line-height: 9vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h6{
+	display: block;
+	position: relative;
+	font-size: 3vw;
+	line-height: 3vw;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
