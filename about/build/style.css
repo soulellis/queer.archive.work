@@ -2,8 +2,18 @@
 
 	/* soulellis.com */
 
+
+* {
+-moz-hyphens:none;
+-ms-hyphens:none;
+-webkit-hyphens: none;
+hyphens:none;
+}
+
+
 @font-face {
-  font-family: "ArialNarrow";
+  font-family: "Arial Narrow";
+	src: local("Arial Narrow");
 	src: local("ArialNarrow");
 	src: local("Arial-Narrow");
   	src: url("/build/font/ArialNarrow.woff2") format("woff2");
@@ -69,6 +79,7 @@ div{
   vertical-align: middle;
   width: 100%;
 }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 100%) {
