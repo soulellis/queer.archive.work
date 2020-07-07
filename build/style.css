@@ -3,8 +3,8 @@
 	/* soulellis.com */
 
 @font-face {
-  font-family: "ArialNarrow";
-	src: local("ArialNarrow");
+  font-family: "Arial Narrow";
+	src: local("Arial Narrow");
 	src: local("Arial-Narrow");
   	src: url("/build/font/ArialNarrow.woff2") format("woff2");
   	src: url("/build/font/ArialNarrow.woff") format("woff");
@@ -17,7 +17,7 @@ html, body{
 	padding: 0px;
 	margin: 0px;
 	font-size: 15px;
-	font-family: "ArialNarrow", ArialNarrow, Arial, sans-serif;
+	font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
 	max-width: 1750px;
 	background-color: #ffffff;
 	box-sizing: border-box;
@@ -40,11 +40,11 @@ div{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-webkit-hyphens: auto;
-  	-ms-hyphens: auto;
+	-webkit-hyphens: none;
+  	-ms-hyphens: none;
   	hyphenate-limit-chars: auto 3;
   	hyphenate-limit-lines: 3;
-  	hyphens: auto;
+  	hyphens: none;
 }
 
 
