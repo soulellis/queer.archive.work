@@ -89,21 +89,6 @@ div{
 }
 
 
-
-
-.colorblock2 {
-	text-align: center;
-	color: blueviolet;
-	border: 0px;
-	background-color: #000000;
-	margin: 1rem;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-
-
-
 a {
 	color: black;
 		text-decoration: underline;
@@ -144,13 +129,13 @@ p{
 
 
 .colorblock2 {
-	text-align: center;
-	color: blueviolet;
 	border: 0px;
 	background-color: #000000;
-	margin: 1rem;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+
 }
 
 
@@ -232,8 +217,9 @@ h5{
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
-	padding: 0;
+		padding: 0;
 	margin: 0;
+
 }
 
 h6{
