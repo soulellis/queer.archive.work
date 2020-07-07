@@ -114,7 +114,7 @@ a.nav:hover {background-color: blueviolet; color: black; text-decoration: underl
 p{
 	padding: 5vw;
 	margin: 1vw;
-	border-style: dashed; border-color: black;
+    border: 2px dashed #000000;
 }
 
 
