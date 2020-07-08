@@ -207,9 +207,9 @@ a.white {color: black; text-decoration: underline;}
 a.white:link {background-color: white; color: black; text-decoration: underline;}
 a.white:hover {background-color: black; color: white; text-decoration: underline;}
 
-a.yel {color: black; text-decoration: underline;}
-a.yel:link {background-color: yellow; color: black; text-decoration: underline;}
-a.yel:hover {background-color: black; color: yellow; text-decoration: underline;}
+a.gold {color: black; text-decoration: underline;}
+a.gold:link {background-color: goldenrod; color: black; text-decoration: underline;}
+a.gold:hover {background-color: black; color: goldenrod; text-decoration: underline;}
 
 a.purp {color: black; text-decoration: underline;}
 a.purp:link {background-color: blueviolet; color: black; text-decoration: underline;}
