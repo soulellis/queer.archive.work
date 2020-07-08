@@ -34,32 +34,6 @@ html, body{
 
 
 
-
-@media screen and (min-width: 1050px) {
-  div.example {
-    font-size: 100px;
-    line-height: 4.5rem;
-
-  }
-}	
-
-@media screen and (max-width: 1049px) {
-  div.example {
-    font-size: 30px;
-    line-height: 3.5rem;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 100px;
-	line-height: 2.25rem;
-  }
-}
-
-
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -158,9 +132,10 @@ html, body{
     padding-top: none;
     padding-bottom: none;
   }
-
-
 }
+
+
+
 
 
 a{
@@ -353,6 +328,13 @@ h2{
 	text-align: center;
 	padding: 0;
 	margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+	h2 {
+	font-size: 3rem;	
+	line-height: 3.5rem;
+	}
 }
 
 h3{
