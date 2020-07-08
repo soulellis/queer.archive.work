@@ -29,25 +29,17 @@ html, body{
 	font-size: 15px;
 	font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
 	max-width: 90%;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+
 }
 
 
-div{
-	margin: none;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-hyphens: auto;
-  	-ms-hyphens: auto;
-  	hyphenate-limit-chars: auto 3;
-  	hyphenate-limit-lines: 3;
-  	hyphens: auto;
-}
 
 
 @media screen and (min-width: 1050px) {
   div.example {
-    font-size: 40px;
+    font-size: 100px;
     line-height: 4.5rem;
 
   }
@@ -63,11 +55,11 @@ div{
 
 @media screen and (max-width: 600px) {
   div.example {
-    font-size: 20px;
+    font-size: 100px;
 	line-height: 2.25rem;
   }
 }
-body {background-color: blueviolet}		
+
 
 
 .row {
@@ -75,7 +67,7 @@ body {background-color: blueviolet}
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 6px;
+  padding: 0;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -83,11 +75,11 @@ body {background-color: blueviolet}
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 100%;
-  padding: 0 6px;
+  padding: 0;
 }
 
 .column4 img {
-  margin-top: 1rem;
+  margin-top: 0;
   vertical-align: middle;
   width: 100%;
 }
@@ -95,7 +87,7 @@ body {background-color: blueviolet}
 /* Create three equal columns that floats next to each other */
 .column3 {
   width: 33.33%;
-  padding: 1vh;
+  padding: 0;
 }
 
 
@@ -169,9 +161,8 @@ body {background-color: blueviolet}
     padding-bottom: none;
   }
 
+
 }
-
-
 
 
 a{
@@ -248,9 +239,8 @@ a.brown:hover {background-color: black; color: rosybrown; text-decoration: under
 
 .textblock {
 	margin: auto;
-	padding: 5vw;
-	padding-right: 5vw;
-	border: 2px solid black;
+	padding:2rem;
+	border: 2px dotted black;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
 	-webkit-hyphens: none;
@@ -363,6 +353,8 @@ h2{
 	line-height: 4.75vw;
 	font-weight: normal;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 h3{
@@ -392,8 +384,8 @@ h4{
 h5{
 	display: block;
 	position: relative;
-	font-size: 6vw;
-	line-height: 7vw;
+	font-size: 4rem;
+	line-height: 5rem;
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
