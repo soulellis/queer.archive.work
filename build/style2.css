@@ -191,6 +191,10 @@ a.black {color: blueviolet; text-decoration: underline;}
 a.black:link {background-color: black; color: blueviolet; text-decoration: underline;}
 a.black:hover {background-color: blueviolet; color: black; text-decoration: underline;}
 
+a.black2 {color: white; text-decoration: underline;}
+a.black2:link {background-color: black; color: white; text-decoration: underline;}
+a.black2:hover {background-color: white; color: black; text-decoration: underline;}
+
 a.blue {color: black; text-decoration: underline;}
 a.blue:link {background-color: deepskyblue; color: black; text-decoration: underline;}
 a.blue:hover {background-color: black; color: deepskyblue; text-decoration: underline;}
@@ -199,6 +203,8 @@ a.brown {color: black; text-decoration: underline;}
 a.brown:link {background-color: rosybrown; color: black; text-decoration: underline;}
 a.brown:hover {background-color: black; color: rosybrown; text-decoration: underline;}
 
+
+SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .profile {
 	margin: auto;
