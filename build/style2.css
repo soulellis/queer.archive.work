@@ -10,6 +10,7 @@
 hyphens:none;
 }
 
+#site { overflow-x: hidden; }
 
 @font-face {
   font-family: "Arial Narrow";
@@ -24,25 +25,12 @@ hyphens:none;
 }
 
 html, body{
-	padding: 0px;
-	margin: 0px;
+	margin: auto;
 	font-size: 15px;
 	font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
-	max-width: 1750px;
-	background-color: #ffffff;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-
+	max-width: 90%;
 }
 
-body{
-	min-height: 100vh;
-	padding-bottom: 1vw;
-	padding-top: 1vh;
-	padding-left: 2vw;
-	padding-right: 2vw;
-}
 
 div{
 	margin: none;
@@ -183,9 +171,7 @@ body {background-color: blueviolet}
 
 }
 
-a:name {
-	color: black;
-}
+
 
 
 a{
@@ -193,6 +179,12 @@ a{
 	text-decoration: none;
 
 }
+
+a[href$=jpg] {
+	background-color: none;
+	text-decoration: none;
+	border: 0 none;
+	}
 
 a:link {
 	color: black;
@@ -206,17 +198,42 @@ a:visited {
 }
 
 a:hover {
-	background-color: #000000;
-	color: blueviolet;
+	background-color: black;
+	color: white;
 }
 
 
-a.nav {color: blueviolet; text-decoration: underline;}
-a.nav:link {color: blueviolet; text-decoration: underline;}
-a.nav:hover {background-color: blueviolet; color: black; text-decoration: underline;}
+a.white {color: black; text-decoration: underline;}
+a.white:link {background-color: white; color: black; text-decoration: underline;}
+a.white:hover {background-color: black; color: white; text-decoration: underline;}
 
+a.yel {color: black; text-decoration: underline;}
+a.yel:link {background-color: yellow; color: black; text-decoration: underline;}
+a.yel:hover {background-color: black; color: yellow; text-decoration: underline;}
+
+a.purp {color: black; text-decoration: underline;}
+a.purp:link {background-color: blueviolet; color: black; text-decoration: underline;}
+a.purp:hover {background-color: black; color: blueviolet; text-decoration: underline;}
+
+a.red {color: black; text-decoration: underline;}
+a.red:link {background-color: #ff3300; color: black; text-decoration: underline;}
 a.red:hover {background-color: black; color: #ff3300; text-decoration: underline;}
 
+a.plum {color: black; text-decoration: underline;}
+a.plum:link {background-color: plum; color: black; text-decoration: underline;}
+a.plum:hover {background-color: black; color: plum; text-decoration: underline;}
+
+a.black {color: blueviolet; text-decoration: underline;}
+a.black:link {background-color: black; color: blueviolet; text-decoration: underline;}
+a.black:hover {background-color: blueviolet; color: black; text-decoration: underline;}
+
+a.blue {color: black; text-decoration: underline;}
+a.blue:link {background-color: deepskyblue; color: black; text-decoration: underline;}
+a.blue:hover {background-color: black; color: deepskyblue; text-decoration: underline;}
+
+a.brown {color: black; text-decoration: underline;}
+a.brown:link {background-color: rosybrown; color: black; text-decoration: underline;}
+a.brown:hover {background-color: black; color: rosybrown; text-decoration: underline;}
 
 
 .profile {
@@ -312,6 +329,28 @@ a.red:hover {background-color: black; color: #ff3300; text-decoration: underline
 	hyphens:none;
 }
 
+.colorblock8 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: white;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock9 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: blueviolet;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
 p{
 	padding: 1rem;
 	margin: auto;
@@ -353,8 +392,8 @@ h4{
 h5{
 	display: block;
 	position: relative;
-	font-size: 8vw;
-	line-height: 9vw;
+	font-size: 6vw;
+	line-height: 7vw;
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
