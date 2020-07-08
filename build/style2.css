@@ -337,6 +337,14 @@ h2{
 	}
 }
 
+@media screen and (max-width: 600px) {
+	h2 {
+	font-size: 2rem;	
+	line-height: 2.5rem;
+	}
+}
+
+
 h3{
 	display: block;
 	position: relative;
