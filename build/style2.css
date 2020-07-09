@@ -171,6 +171,10 @@ a.white {color: black; text-decoration: underline;}
 a.white:link {background-color: white; color: black; text-decoration: underline;}
 a.white:hover {background-color: black; color: white; text-decoration: underline;}
 
+a.pink {color: black; text-decoration: underline;}
+a.pink:link {background-color: #FF1493; color: black; text-decoration: underline;}
+a.pink:hover {background-color: black; color: #FF1493; text-decoration: underline;}
+
 a.gold {color: black; text-decoration: underline;}
 a.gold:link {background-color: goldenrod; color: black; text-decoration: underline;}
 a.gold:hover {background-color: black; color: goldenrod; text-decoration: underline;}
