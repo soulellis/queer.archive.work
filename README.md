@@ -30,7 +30,7 @@ Best practices:
 * Photography in the space: ask for permission
 * Clean up your mess 
 * Take care when handling materials in the QAW library
-* Respect the other residents at Rooms & Works
+* Respect the other tenants at Rooms & Works
 * Assume that people are trying to be helpful
 * Be safe 
 * Be respectful
