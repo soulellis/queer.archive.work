@@ -42,6 +42,49 @@ html, body{
   padding: 0;
 }
 
+/* Create a 1:2 column structure; */
+.column40 {
+  -ms-flex: 40%; /* IE10 */
+  flex: 40%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.column40 img {
+  margin-top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column60 {
+  -ms-flex: 60%; /* IE10 */
+  flex: 60%;
+  max-width: 100%;
+  padding: 0;
+}
+
+/* Responsive layout - makes the two UNEVEN columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column40 {
+    -ms-flex: auto%;
+    flex: auto;
+    max-width: auto;
+    margin: none;
+    padding: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column60 {
+    -ms-flex: auto%;
+    flex: auto;
+    max-width: auto;
+    margin: none;
+    padding: none;
+  }
+}
+
+
 /* Create four equal columns that sits next to each other */
 .column4 {
   -ms-flex: 25%; /* IE10 */
@@ -56,7 +99,7 @@ html, body{
   width: 100%;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three equal columns that float next to each other */
 .column3 {
   width: 33.33%;
   padding: 0;
@@ -77,7 +120,7 @@ html, body{
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 1000px) {
   .column4 {
     -ms-flex: 50%;
     flex: 50%;
@@ -230,9 +273,19 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+.textblock2 {
+	border: 0px;
+	margin: auto;
+	padding: 1.5rem;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
 .colorblock {
 	border: 0px;
-	padding: 1rem;
+	padding: 1.5rem;
 	background-color: #ff3300;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -254,7 +307,7 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .colorblock3 {
 	border: 0px;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: goldenrod;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -264,7 +317,7 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .colorblock4 {
 	border: 0px;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: rosybrown;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -274,7 +327,7 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .colorblock5 {
 	border: 0px;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: maroon;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -284,7 +337,7 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .colorblock6 {
 	border: 0px;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: deepskyblue;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -294,7 +347,7 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 .colorblock7 {
 	border: 0px;
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: plum;
 	-moz-hyphens:none;
 	-ms-hyphens:none;
@@ -324,9 +377,30 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+.colorblock10 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: grey;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
 p{
 	padding: 1rem;
 	margin: auto;
+}
+
+h1{
+	color: #000000;
+	font-size: 5rem;
+	line-height: 4.75rem;
+	font-weight: normal;
+	text-align: left;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -358,8 +432,8 @@ h2{
 h3{
 	display: block;
 	position: relative;
-	font-size: 4vw;
-	line-height: 4.75vw;
+	font-size: 2rem;
+	line-height: 2.5rem;
 	color: #000000;
 	font-weight: normal;
 	text-align: left;
@@ -370,8 +444,8 @@ h3{
 h4{
 	display: block;
 	position: relative;
-	font-size: 2vw;
-	line-height: 2vw;
+	font-size: 1.5rem;
+	line-height: 1.75rem;
 	color: #000000;
 	font-weight: normal;
 	text-align: center;
