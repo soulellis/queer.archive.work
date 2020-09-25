@@ -26,15 +26,29 @@
 
 
 body {
-  background-image: url('');
+  background-image: url('sloanres.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: auto;
   height: auto;
 }
 
 body {background-color: #FF3300}    
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1.75vw;
+  color: blueviolet;
+  text-align: center;
 
 </style>
 
@@ -46,16 +60,28 @@ body {background-color: #FF3300}
 
 <!------------ page header ------------------------------------->
 
+
 <h2>
-<div style="text-align: left;"><a class="red" href="https://queer.archive.work/">Queer.Archive.Work</a>/residency <span style="float: right;"><a class="red" href="../donate/index.html">Donate</a></span></div>
-<div style="text-align: left;">Providence, RI <span style="float: right;"><a class="red" href="../about/index.html">About</a></span></div>
+<div style="text-align: left;"><span style="background-color: white"><a href="../index.html">Queer.Archive.Work</a>/residency</span></div>
+</h2>
+
+<br>
+<div class="grid-container">
+  <div class="grid-item"><a href="../about/index.html" class="black2">About</a></div>
+  <div class="grid-item" style="color: plum">Residency</div> 
+  <div class="grid-item"><a href="../library/index.html" class="black2">Library</a></div>
+  <div class="grid-item"><a href="../riso/index.html" class="black2">Risograph</a></div>
+  <div class="grid-item"><a href="../donate/index.html" class="black2">Donate</a></div>
+</div>
+
+<br>
 
 <!------------ page title ------------------------------------->
 
 <br>
 
 <h1>
-<div class="colorblock2" align="left"  style="hyphens: none; color: #ff3300;">Artists-in-Residence 2020&ndash;21
+<div class="colorblock2" align="left"  style="hyphens: none; color: plum; line-height: 5.5rem">Artists-in-Residence 2020&ndash;21
 
 <br>
 <br>
