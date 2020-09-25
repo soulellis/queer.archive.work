@@ -23,15 +23,30 @@
 	<style>
 
 body {
-  background-image: url('');
+  background-image: url('sloanres2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: auto;
   height: auto;
 }
 
 body {background-color: blueviolet}   
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1.75vw;
+  color: blueviolet;
+  text-align: center;
+}
 
 </style>
 </head>
@@ -41,20 +56,31 @@ body {background-color: blueviolet}
 
 
 <h2>
-<div class="white" style="text-align: left;"><span>Queer.Archive.Work</span> <span style="float: right;"><a class="purp" href="donate/index.html"><span>Donate</span></a></span>
-  <br>
-<span>Providence, RI</span> <span style="float: right;"><a class="purp" href="about/index.html"><span>About</span></a></span></div>
+<div style="text-align: left;"><span style="background-color: white">Queer.Archive.Work</span></div>
 </h2>
 
 <br>
+<div class="grid-container">
+  <div class="grid-item"><a href="about/index.html" class="black2">About</a></div>
+  <div class="grid-item"><a href="residency/index.html" class="black2">Residency</a></div> 
+  <div class="grid-item"><a href="library/index.html" class="black2">Library</a></div>
+  <div class="grid-item"><a href="riso/index.html" class="black2">Risograph</a></div>
+  <div class="grid-item"><a href="donate/index.html" class="black2">Donate</a></div>
+</div>
 
+<br>
 
+<!------------ mission box ------------------------------------->
+
+<h2>
+<p class="colorblock3" align="left">Queer.Archive.Work is a 501(c)(3) nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond. &#8594; <a class="gold" href="about/index.html">our mission</a></p> 
+</h2>
 
 <!------------ RESIDENCY ------------------------------------->
-<br>
+
 <br>
 <h1>
-<div align="left" class="colorblock2" style="hyphens: none;"><a class="black" href="residency/index.html" class="nav">Artists-in-Residence 2020&ndash;21</a>
+<div class="colorblock7" align="left"  style="hyphens: none; color: #ff3300; line-height: 5.5rem"><a href="residency/index.html" class="plum">Artists-in-Residence 2020&ndash;21</a>
 <br>
 <br>
 <a href="residency/index.html">
@@ -77,11 +103,6 @@ body {background-color: blueviolet}
 	</div>
 </div>
 </a>
-<!------------ mission box ------------------------------------->
-
-<h2>
-<p class="colorblock3" align="left">Queer.Archive.Work is a 501(c)(3) nonprofit reading room, publishing studio, and project space serving Providence, RI and beyond. &#8594; <a class="gold" href="about/index.html">our mission</a></p> 
-</h2>
 
 <!------------ BLM PRINTING ------------------------------------->
 
