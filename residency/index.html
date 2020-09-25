@@ -29,7 +29,7 @@ body {
   background-image: url('sloanres.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-size: auto;
   height: auto;
 }
@@ -49,6 +49,27 @@ body {background-color: #FF3300}
   font-size: 1.75vw;
   color: blueviolet;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 3vw;
+  color: blueviolet;
+  text-align: center;
+}
+
+}
+
+
 
 </style>
 
@@ -231,7 +252,7 @@ Residents have unlimited access to the studio, but please note that this residen
 
 <!------------ LAST UPDATED ------------------------------------->
 
-<p class="colorblock2" style="color: #ff3300">Last updated: August 13, 2020</p>
+<p class="colorblock2" style="color: plum">Last updated: September 25, 2020</p>
 
 
 </div>
