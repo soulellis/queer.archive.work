@@ -75,11 +75,26 @@ body {background-color: blueviolet}
   background-color: none;
   border: none;
   padding: 1rem;
-  font-size: 1.25vw;
+  font-size: 1.75vw;
   color: plum;
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 3vw;
+  color: blueviolet;
+  text-align: center;
+}
 
 @media screen and (max-width: 1400px) {
 .grid-container7 {
@@ -113,6 +128,8 @@ body {background-color: blueviolet}
   text-align: center;
 }
 
+
+
 @media screen and (max-width: 800px) {
 .grid-container7 {
   display: grid;
@@ -124,10 +141,12 @@ body {background-color: blueviolet}
   background-color: none;
   border: none;
   padding: 1rem;
-  font-size: 4vw;
+  font-size: 3vw;
   color: plum;
   text-align: center;
 }
+
+
 
 }
 
