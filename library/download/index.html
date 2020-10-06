@@ -22,6 +22,15 @@
   <meta property="og:type" content="website" />
 	<style>
 
+
+html, body{
+  margin: auto;
+  font-size: 15px;
+  font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
+  max-width: 1850px;
+  padding: 1vw;
+}
+
 body {
   background-image: url('gayflames1_cover_bg.jpg');
   background-repeat: no-repeat;
@@ -55,9 +64,9 @@ body {background-color: blueviolet}
   padding: 10px;
 }
 
-.grid-container4 {
+.grid-container7 {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
   background-color: black;
   padding: 10px;
 }
@@ -66,13 +75,46 @@ body {background-color: blueviolet}
   background-color: none;
   border: none;
   padding: 1rem;
-  font-size: 1.75vw;
+  font-size: 1.25vw;
+  color: plum;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+.grid-container7 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 2vw;
+  color: plum;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+.grid-container7 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 2.25vw;
   color: plum;
   text-align: center;
 }
 
 @media screen and (max-width: 800px) {
-.grid-container4 {
+.grid-container7 {
   display: grid;
   grid-template-columns: auto auto;
   background-color: black;
@@ -82,7 +124,7 @@ body {background-color: blueviolet}
   background-color: none;
   border: none;
   padding: 1rem;
-  font-size: 3vw;
+  font-size: 4vw;
   color: plum;
   text-align: center;
 }
@@ -128,7 +170,7 @@ body {background-color: blueviolet}
 <!------------ DOWNLOADS ------------------------------------->
 
 
-<div class="grid-container4">
+<div class="grid-container7">
 
 
 
