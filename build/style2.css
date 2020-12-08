@@ -210,6 +210,10 @@ a:hover {
 }
 
 
+a.none {color: none; text-decoration: none;}
+a.none:link {background-color: none; color: none; text-decoration: none;}
+a.none:hover {background-color: none; color: none; text-decoration: none;}
+
 a.white {color: black; text-decoration: underline;}
 a.white:link {background-color: white; color: black; text-decoration: underline;}
 a.white:hover {background-color: black; color: white; text-decoration: underline;}
@@ -387,6 +391,80 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	-webkit-hyphens: none;
 	hyphens:none;
 }
+
+
+/* black on white */
+
+.colorblock11 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: white;
+	color: black
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+/* white on black */
+
+.colorblock12 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: black;
+	color: white !important;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+/* black on rosybrown */
+
+.colorblock13 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: rosybrown;
+	color: black;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+/* dark red on aqua */
+
+.colorblock14 {
+		margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: aqua;
+	color: darkred;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+
+}
+
+/* black on yellow */
+
+.colorblock15 {
+		margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: yellow;
+	color: black;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+
+}
+
 
 p{
 	padding: 1rem;
