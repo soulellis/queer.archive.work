@@ -45,7 +45,7 @@ body {background-color: blueviolet}
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   background-color: black;
   padding: 10px;
 }
@@ -80,11 +80,19 @@ body {background-color: blueviolet}
   text-align: center;
 }
 
+.grid-item-nav {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1.75vw;
+  color: plum;
+  text-align: center;
+}
 
 @media screen and (max-width: 1400px) {
 .grid-container7 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   background-color: black;
   padding: 10px;
 }
@@ -107,7 +115,7 @@ body {background-color: blueviolet}
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   background-color: black;
   padding: 10px;
 }
@@ -139,9 +147,24 @@ body {background-color: blueviolet}
   text-align: center;
 }
 
+.grid-container {
+  column-count: 1;
+  grid-template-columns: auto;
+  padding: 5px;
+}
 
+.grid-item-nav {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5em;
+  color: blueviolet;
+  text-align: left;
+  line-height: 1vh;
+}
 
 }
+
 
 
 </style>
@@ -156,11 +179,12 @@ body {background-color: blueviolet}
 
 <br>
 <div class="grid-container">
-  <div class="grid-item"><a href="../../about/index.html" class="black2">About</a></div>
-  <div class="grid-item"><a href="../../residency/index.html" class="black2">Residency</a></div> 
-  <div class="grid-item"><a href="../index.html" class="black2">Library</a></div>
-  <div class="grid-item"><a href="../../riso/index.html" class="black2">Risograph</a></div>
-  <div class="grid-item"><a href="../../donate/index.html" class="black2">Support</a></div>
+  <div class="grid-item-nav"><a href="../../about/index.html" class="black2">About</a></div>
+  <div class="grid-item-nav"><a href="../../publications/index.html" class="black2">Publications</a></div>
+  <div class="grid-item-nav"><a href="../../residency/index.html" class="black2">Residency</a></div> 
+  <div class="grid-item-nav"><a href="../index.html" class="black2">Library</a></div>
+  <div class="grid-item-nav"><a href="../../riso/index.html" class="black2">Risograph</a></div>
+  <div class="grid-item-nav"><a href="../../donate/index.html" class="black2">Support</a></div>
 </div>
 
 <!------------ page title ------------------------------------->
