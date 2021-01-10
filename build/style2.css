@@ -193,6 +193,12 @@ a[href$=jpg] {
 	border: 0 none;
 	}
 
+a[href$=gif] {
+	background-color: none;
+	text-decoration: none;
+	border: 0 none;
+	}
+
 a:link {
 	color: black;
 	text-decoration: underline;
@@ -208,6 +214,7 @@ a:hover {
 	background-color: black;
 	color: white;
 }
+
 
 
 a.none {color: none; text-decoration: none;}
@@ -253,6 +260,10 @@ a.blue:hover {background-color: black; color: deepskyblue; text-decoration: unde
 a.brown {color: black; text-decoration: underline;}
 a.brown:link {background-color: rosybrown; color: black; text-decoration: underline;}
 a.brown:hover {background-color: black; color: rosybrown; text-decoration: underline;}
+
+a.yellow {color: yellow; text-decoration: underline;}
+a.yellow:link {background-color: black; color: black; text-decoration: underline;}
+a.yellow:hover {background-color: yellow; color: black; text-decoration: underline;}
 
 
 SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
