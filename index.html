@@ -50,21 +50,22 @@ body {background-color: blueviolet}
 
 @media screen and (max-width: 800px) {
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  background-color: black;
-  padding: 10px;
+  column-count: 1;
+  grid-template-columns: auto;
+  padding: 5px;
 }
+
 .grid-item {
   background-color: none;
   border: none;
   padding: 1rem;
-  font-size: 2.5vw;
+  font-size: 1.5em;
   color: blueviolet;
-  text-align: center;
+  text-align: left;
+  line-height: 1vh;
 }
 
-}
+
 
 </style>
 </head>
