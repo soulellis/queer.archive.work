@@ -241,6 +241,10 @@ a.red {color: black; text-decoration: underline;}
 a.red:link {background-color: #ff3300; color: black; text-decoration: underline;}
 a.red:hover {background-color: black; color: #ff3300; text-decoration: underline;}
 
+a.red2 {color: black; text-decoration: underline;}
+a.red2:link {background-color: red; color: black; text-decoration: underline;}
+a.red2:hover {background-color: black; color: red; text-decoration: underline;}
+
 a.plum {color: black; text-decoration: underline;}
 a.plum:link {background-color: plum; color: black; text-decoration: underline;}
 a.plum:hover {background-color: black; color: plum; text-decoration: underline;}
