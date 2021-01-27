@@ -237,6 +237,10 @@ a.purp {color: black; text-decoration: underline;}
 a.purp:link {background-color: blueviolet; color: black; text-decoration: underline;}
 a.purp:hover {background-color: black; color: blueviolet; text-decoration: underline;}
 
+a.purp2 {color: #8000ff; text-decoration: underline;}
+a.purp2:link {background-color: black; color: #8000ff; text-decoration: underline;}
+a.purp2:hover {background-color: #8000ff; color: black; text-decoration: underline;}
+
 a.red {color: black; text-decoration: underline;}
 a.red:link {background-color: #ff3300; color: black; text-decoration: underline;}
 a.red:hover {background-color: black; color: #ff3300; text-decoration: underline;}
@@ -244,6 +248,10 @@ a.red:hover {background-color: black; color: #ff3300; text-decoration: underline
 a.red2 {color: black; text-decoration: underline;}
 a.red2:link {background-color: red; color: black; text-decoration: underline;}
 a.red2:hover {background-color: black; color: red; text-decoration: underline;}
+
+a.red3 {color: red; text-decoration: underline;}
+a.red3:link {background-color: none; color: red; text-decoration: underline;}
+a.red3:hover {background-color: red; color: black; text-decoration: underline;}
 
 a.plum {color: black; text-decoration: underline;}
 a.plum:link {background-color: plum; color: black; text-decoration: underline;}
@@ -480,6 +488,56 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 
 }
 
+/* red on black with wide right margin */
+
+.colorblock16 {
+	margin-left: 12rem;
+	margin-right: 12rem;	
+	font-size: 1.5rem;
+	border: 0px;
+	padding: 1rem;
+	background-color: black;
+	color: red;
+	font-family: courier;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+/* yellow on black with wide right margin */
+
+.colorblock17 {
+	margin-left: 12rem;
+	margin-right: 12rem;	
+	font-size: 1.5rem;
+	border: 0px;
+	padding: 1rem;
+	background-color: black;
+	color: yellow;
+	font-family: courier;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+/* purple on black with wide right margin */
+
+.colorblock18 {
+	margin-left: 12rem;
+	margin-right: 12rem;	
+	font-size: 1.5rem;
+	border: 0px;
+	padding: 1rem;
+	background-color: black;
+	color: #8000ff;
+	font-family: courier;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
 
 p{
 	padding: 1rem;
