@@ -101,10 +101,19 @@ html, body{
 
 /* Create three equal columns that float next to each other */
 .column3 {
-  width: 33.33%;
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 100%;
   padding: 0;
 }
 
+/* Create two equal columns that float next to each other */
+.column2 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 100%;
+  padding: 0;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -114,9 +123,15 @@ html, body{
 }
 
 .column3 img {
+  margin-top: 0;
   vertical-align: middle;
   width: 100%;
-  padding: none;
+}
+
+.column2 img {
+  margin-top: 0;
+  vertical-align: middle;
+  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -161,6 +176,9 @@ html, body{
     width: 100%;
   }
 
+  .column2 img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
