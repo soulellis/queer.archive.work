@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>queer.archive.work/qm</title>
+  <title>queer.archive.work/queermatters</title>
   <meta name="description" content="QUEER MATTERS is a collaborative publication produced by the Queer.Archive.Work community. Available for free/trade/purchase on February 24, 2021." />
   <meta name="keywords" content="art, artists, reading room, Providence, Paul Soulellis, Library of the Printed Web, queer, archive, publishing, risograph" />
   <link rel="stylesheet" type="text/css" href="../../build/style2.css" />
@@ -219,7 +219,7 @@ body {background-color: black}
 <br>
 <br>
 
-            All through the fall and winter of 2020 QAW folks met weekly and designed simple one-hour workshops for all of us to make together, never feeling like work but more like online spaces for care and play, sometimes 5 people or 10 or 15, and then once we got to the new year realized we&rsquo;d made this beautiful queer archive of work, writing and drawings and images and chats. This 60-page publication&mdash;written, designed, and edited collaboratively&mdash;is visible evidence of our community and a joyful invitation to join us.
+            All throughout the fall and winter of 2020 QAW folks met weekly and designed simple one-hour workshops for all of us to make together, never feeling like work but more like online spaces for care and play, sometimes 5 people or 10 or 15, and then once we got to the new year realized we&rsquo;d made this beautiful queer archive of work, writing and drawings and images and chats. This 60-page publication&mdash;written, designed, and edited collaboratively&mdash;is visible evidence of our community and a joyful invitation to join us.
 <br>
 <br>
             The interior was risograph printed at Queer&hairsp;.&hairsp;Archive&hairsp;.&hairsp;Work and the cover wrap was digitally printed at Newspaper Club. 100 copies launch for free/trade/purchase on February 24, 2021 on the occasion of Printed Matter&rsquo;s Virtual Art Book Fair, and another 100 copies are being distributed by the publication&rsquo;s contributors.
@@ -227,11 +227,28 @@ body {background-color: black}
 </div>
 
 <div class="grid-item3">
-    <p class="colorblock14">
-      Available February 24: 
-      Free / Trade / Purchase
+    <p class="colorblock14" align="center">
+      Purchase (shipping included, US only)
     </p>
 </div>
+
+ <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div style="margin-bottom: 3rem;">
+          <p style="font-size: 3vw">QUEER MATTERS</p>
+          <select id="item-options"><option value="Purchase only" price="45.00">Purchase only - 45.00 USD</option><option value="Purchase + $5 donation to QAW" price="50.00">Purchase + $5 donation to QAW - 50.00 USD</option><option value="Purchase + $10 donation to QAW" price="55.00">Purchase + $10 donation to QAW - 55.00 USD</option><option value="Purchase + $25 donation to QAW" price="70.00">Purchase + $25 donation to QAW - 70.00 USD</option><option value="Purcahse + $50 donation to QAW" price="95.00">Purcahse + $50 donation to QAW - 95.00 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"></select>
+        </div>
+      <div id="paypal-button-container"></div>
+      </div>
+    </div>
+   </p> 
+    
+
+
+
+
+
 
 <div class="grid-item3">
     <p class="colorblock11">
@@ -244,9 +261,14 @@ body {background-color: black}
   <div class="grid-item3"><img src="7.jpg"></div>
 
   <div class="grid-item3"><img src="3.jpg"></div>
+
+<div class="grid-item3">
+    <p class="colorblock13" align="center">
+      <a href="https://forms.gle/EmDHUnXQxrs2jtrz9" target="_blank">Free / Trade (US only)</a>
+    </p>
+</div>
+
   <div class="grid-item3"><img src="6.jpg"></div>
-
-
 
 
   <div class="grid-item3"><p class="colorblock15">
@@ -259,7 +281,12 @@ body {background-color: black}
 </p>
 </div>
 
+  <div class="grid-item3"><img src="8.jpg"></div>
+
 </div>
+
+
+
   <img src="2.jpg" style="max-width: 100%">
 </div>
 <br>
@@ -284,6 +311,93 @@ body {background-color: black}
 
 </p>
 </div>
+
+
+
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AR9ZdbTpreJ5366l77cGMF4h2tU-32Iu8dYpQ-fd078SenYhUEg5UPPasMJ_MHtBFrXZS-5JG-cOj4du&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        var shipping = 0;
+        var itemOptions = document.querySelector("#smart-button-container #item-options");
+    var quantity = parseInt();
+    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+    if (!isNaN(quantity)) {
+      quantitySelect.style.visibility = "visible";
+    }
+    var orderDescription = 'QUEER MATTERS';
+    if(orderDescription === '') {
+      orderDescription = 'Item';
+    }
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'black',
+        layout: 'vertical',
+        label: 'buynow',
+        
+      },
+      createOrder: function(data, actions) {
+        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+        var tax = (0 === 0) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
+        if(quantitySelect.options.length > 0) {
+          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+        } else {
+          quantity = 1;
+        }
+
+        tax *= quantity;
+        tax = Math.round(tax * 100) / 100;
+        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+        priceTotal = Math.round(priceTotal * 100) / 100;
+        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+
+        return actions.order.create({
+          purchase_units: [{
+            description: orderDescription,
+            amount: {
+              currency_code: 'USD',
+              value: priceTotal,
+              breakdown: {
+                item_total: {
+                  currency_code: 'USD',
+                  value: itemTotalValue,
+                },
+                shipping: {
+                  currency_code: 'USD',
+                  value: shipping,
+                },
+                tax_total: {
+                  currency_code: 'USD',
+                  value: tax,
+                }
+              }
+            },
+            items: [{
+              name: selectedItemDescription,
+              unit_amount: {
+                currency_code: 'USD',
+                value: selectedItemPrice,
+              },
+              quantity: quantity
+            }]
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        });
+      },
+      onError: function(err) {
+        console.log(err);
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+    </script>
+
 
 </body>
 </html>
