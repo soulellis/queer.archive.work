@@ -33,6 +33,34 @@ html, body{
 }
 
 
+.button {
+  border: none;
+  color: white;
+  padding: 4vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-family: "Arial Narrow", ArialNarrow, Arial, sans-serif;
+  font-size: 3vw;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: hotpink; 
+  border: 4px solid hotpink;
+}
+
+.button1:hover {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 4px solid black;
+}
 
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -84,6 +112,57 @@ html, body{
   }
 }
 
+/* Create two equal columns */
+
+.column {
+	flex: 45%;
+	padding-right: 30px;
+}
+
+.column img {
+  margin-top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three equal columns that float next to each other */
+.column3 {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.column3 img {
+  margin-top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Create five equal columns that sits next to each other */
+.column5 {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.column5 img {
+  margin-top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
 
 /* Create four equal columns that sits next to each other */
 .column4 {
@@ -99,13 +178,7 @@ html, body{
   width: 100%;
 }
 
-/* Create three equal columns that float next to each other */
-.column3 {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 100%;
-  padding: 0;
-}
+
 
 /* Create two equal columns that float next to each other */
 .column2 {
@@ -122,11 +195,7 @@ html, body{
   clear: both;
 }
 
-.column3 img {
-  margin-top: 0;
-  vertical-align: middle;
-  width: 100%;
-}
+
 
 .column2 img {
   margin-top: 0;
@@ -141,8 +210,16 @@ html, body{
     flex: 50%;
     max-width: 50%;
   }
-}
 
+/* Responsive layout - makes a two column-layout instead of five columns */
+@media screen and (max-width: 1000px) {
+  .column5 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+}
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -155,6 +232,8 @@ html, body{
     padding: none;
   }
 }
+
+
 
 @media screen and (max-width: 800px) {
   .column2 {
@@ -180,6 +259,8 @@ html, body{
     width: 100%;
   }
 }
+
+
 
 @media screen and (max-width: 900px) {
   .column3 {
@@ -229,8 +310,8 @@ a:visited {
 }
 
 a:hover {
-	background-color: black;
-	color: white;
+	background-color: none;
+	color: plum;
 }
 
 
@@ -270,6 +351,10 @@ a.red2:hover {background-color: black; color: red; text-decoration: underline;}
 a.red3 {color: red; text-decoration: underline;}
 a.red3:link {background-color: none; color: red; text-decoration: underline;}
 a.red3:hover {background-color: red; color: black; text-decoration: underline;}
+
+a.darkred {color: darkred; text-decoration: underline;}
+a.darkred:link {background-color: none; color: darkred; text-decoration: underline;}
+a.darkred:hover {background-color: darkred; color: aqua; text-decoration: underline;}
 
 a.plum {color: black; text-decoration: underline;}
 a.plum:link {background-color: plum; color: black; text-decoration: underline;}
