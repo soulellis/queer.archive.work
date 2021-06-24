@@ -475,6 +475,26 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+.colorblockpink {
+	border: 0px;
+	padding: 1rem;
+	background-color: pink;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblockhotpink {
+	border: 0px;
+	padding: 1rem;
+	background-color: hotpink;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
 .colorblock7 {
 	border: 0px;
 	padding: 1rem;
