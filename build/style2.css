@@ -662,6 +662,22 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+/* black on acid green */
+
+.colorblock19 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: #00FF00;
+	color: black;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+
+
 p{
 	padding: 1rem;
 	margin: auto;
