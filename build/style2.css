@@ -701,6 +701,39 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+.colorblock22 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: lightsalmon;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock23 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: lightskyblue;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock24 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: peachpuff;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
 
 p{
 	padding: 1rem;
