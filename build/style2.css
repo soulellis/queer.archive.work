@@ -676,6 +676,30 @@ SPAN.li  {display: list-item; margin-left: 1em; margin-right: 3rem}
 	hyphens:none;
 }
 
+/* white on fuschia */
+
+.colorblock20 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: fuchsia;
+	color: white;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
+
+.colorblock21 {
+	margin: auto;
+	border: 0px;
+	padding: 1rem;
+	background-color: deeppink;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	-webkit-hyphens: none;
+	hyphens:none;
+}
 
 
 p{
