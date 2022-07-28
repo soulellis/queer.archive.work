@@ -45,7 +45,7 @@ body {background-color: #FFFFFF}
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 25% 75%;
 }
 
 .grid-container3 {
@@ -67,6 +67,18 @@ body {background-color: #FFFFFF}
   text-align: center;
 }
 
+
+.grid-item2 {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 2.5vw;
+  line-height: 3.5vw;
+  color: black;
+  text-align: left;
+}
+
+
 .grid-item5 {
   background-color: none;
   border: none;
@@ -76,6 +88,13 @@ body {background-color: #FFFFFF}
 }
 
 .grid-item5 img {
+  background-color: none;
+  border: none;
+  max-width: 100%;
+}
+
+
+.grid-item2 img {
   background-color: none;
   border: none;
   max-width: 100%;
@@ -94,6 +113,14 @@ body {background-color: #FFFFFF}
   background-color: black;
   padding: 0px;
 }
+
+.grid-container2 {
+  display: inline-block;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 0px;
+}
+
+
 .grid-item {
   background-color: none;
   border: none;
@@ -111,6 +138,16 @@ body {background-color: #FFFFFF}
   column-count: 1;
   grid-template-columns: auto;
   padding: 5px;
+}
+
+.grid-item2 {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 5vw;
+  line-height: 6vw;
+  color: black;
+  text-align: left;
 }
 
 
@@ -131,6 +168,12 @@ body {background-color: #FFFFFF}
 }
 
 h2 {
+  font-size: 7vw;
+  line-height: 8vw;
+}
+
+
+h1 {
   font-size: 7vw;
   line-height: 8vw;
 }
@@ -181,15 +224,23 @@ h2 {
 
 <!------------ BODY ------------------------------------->
 
-<h1>
+<h2>
 
 
-<div class="colorblock21" align="left"  style="hyphens: none; color: black; line-height: 5.5rem">
+<div class="colorblock21" align="left"  style="hyphens: none; color: black;">
+<div class="grid-container2">
+  <div class="grid-item2">
+<img src="images/peach1.jpg" style="max-width: 100%;">
+  </div>
+  <div class="grid-item2">
+
     Queer & Trans Zinefest (QTZ) is an annual small works festival celebrating the creations of queer, trans, and gender non-conforming artists. This year, we welcome 50 exhibitors from RI and beyond 
 to the <span style="background: white; line-height: 1.25em;"> <a href="https://www.thesteelyard.org/" type="summary_large_image">The Steel Yard</a></span>
 in <span style="background: white; line-height: 1.25em;">  Providence, RI</span>
 on <span style="background: white; line-height: 1.25em;">  Sunday, September 4</span>,
 from <span style="background: white; line-height: 1.25em;">  11am&ndash;4pm</span>. Come join us! QTZ is totally free and open to the public.
+</div>
+</div>
 </div>
 
 <br>
@@ -205,7 +256,7 @@ from <span style="background: white; line-height: 1.25em;">  11am&ndash;4pm</spa
 
 
 
-</h1>
+</h2>
 
 
 <!------------ CREATIVE COMMONS ------------------------------------->
