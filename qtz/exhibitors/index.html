@@ -36,6 +36,28 @@ body {
 
 body {background-color: lightpink;}    
 
+
+{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -213,6 +235,18 @@ h1.exhibitor-name{
 
 @media screen and (max-width: 800px) {
 
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+
+
 .grid-container {
   column-count: 1;
   grid-template-columns: auto;
@@ -291,7 +325,9 @@ h1 {
 <br>
 <h1>
 <div class="colorblock20" align="left"  style="hyphens: none; color: black; line-height: 5.5rem">Queer & Trans Zinefest 2022
+<h4 style="text-align: left; color: black">Sunday, September 4 at The Steel Yard</h4>
 </h1>
+</div>
 
 
 
@@ -982,17 +1018,11 @@ h1 {
        <a target="_blank" href="https://ko-fi.com/ratchurch/shop">https://ko-fi.com/ratchurch/shop</a></p>
    </div>
 </div>
+</h2>
 
 <!------------ END OF EXHIBITOR LIST ------------------------->
 
 
-</div>
-
-
-<br>
-
- 
-</h2>
 
 
 <!------------ CREATIVE COMMONS ------------------------------------->
