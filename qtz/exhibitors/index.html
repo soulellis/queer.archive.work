@@ -106,7 +106,86 @@ body {background-color: lightpink;}
   max-width: 100%;
 }
 
+.exhibitor {
+  display: flex;
+  padding: 2rem;
+}
+
+.exhibitor-info{
+  font-size: 100%;
+  line-height: 1.25;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.exhibitor-info > p {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 75%;
+}
+
+h1.exhibitor-name{
+  font-size: 100%;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.exhibitor-city {
+
+}
+
+.exhibitor-links {
+  word-break: break-all;
+}
+
+.exhibitor-photo {
+  height: 300px;
+  width: 300px;
+/*  clear: left;
+  float: left;*/
+  min-width: 300px;
+/*  margin-right: 25px;*/
+  object-fit: cover;
+}
+
+/*.exhibitor-list-index > a::before{
+  content: '📚  ';
+}*/
+
+.exhibitor-list-index > a{
+  display: list-item;
+  list-style-type: "📚";
+  padding-inline-start: 1ch;
+}
+
+.exhibitor-list-index{
+  font-size: 1.5rem;
+  line-height: 1.25;
+  column-count: 3;
+  column-gap: 8vw;
+}
+
 @media screen and (max-width: 800px) {
+
+.exhibitor-list-index{
+  column-count: 2;
+}
+.exhibitor-photo {
+  height: 70vw;
+  width: 70vw;
+  min-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.exhibitor-info{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.exhibitor{
+  flex-flow: row wrap;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -178,6 +257,7 @@ h1 {
   line-height: 8vw;
 }
 
+
 }
 
 
@@ -228,109 +308,684 @@ h1 {
 
 <h2>
 <div class="colorblock11" align="left"  style="hyphens: none;">
-<ul>
 
-<a href="https://bmfu.net/" target="_blank">Beatrix Urkowitz</a>
-<br>
-<a href="https://www.lemonliuart.com/" target="_blank">Lemon Liu Press</a>
-<br>
-<a href="https://www.fernfloods.com/" target="_blank">fernfloods</a>
-<br>
-<a href="https://www.instagram.com/tilwinter/" target="_blank">Rowan Jude</a>
-<br>
-June June 
-<br>
-<a href="https://www.instagram.com/juleszuckerberg/" target="_blank">Jules Zuckerberg</a>
-<br>
-<a href="TBD" target="_blank">Unknown Era Vintage & Handmade</a>
-<br>
-<a href="TBD" target="_blank">Eli Kauffman</a>
-<br>
-<a href="TBD" target="_blank">Haus of Codec</a>
-<br>
-<a href="TBD" target="_blank">Three Fifty</a>
-<br>
-<a href="TBD" target="_blank">Many Folds Press</a>
-<br>
-<a href="TBD" target="_blank">Rocky's Root Care</a>
-<br>
-<a href="TBD" target="_blank">Queer & Trans Mutual Aid PVD</a>
-<br>
-<a href="TBD" target="_blank">carsh</a>
-<br>
-<a href="TBD" target="_blank">Homie House Press</a>
-<br>
-<a href="TBD" target="_blank">Zooey Kim Conner</a>
-<br>
-<a href="TBD" target="_blank">Eat More Spiders | Marcel Mensah</a>
-<br>
-<a href="TBD" target="_blank">New Urban Arts</a>
-<br>
-<a href="TBD" target="_blank">Marius Marjolin</a>
-<br>
-<a href="TBD" target="_blank">F E L I C I T A</a>
-<br>
-<a href="TBD" target="_blank">Roller Ink Riso</a>
-<br>
-<a href="TBD" target="_blank">Em Robillard</a>
-<br>
-<a href="TBD" target="_blank">bread&bone</a>
-<br>
-<a href="TBD" target="_blank">Filipa Estrela</a>
-<br>
-<a href="TBD" target="_blank">Haley Johnson</a>
-<br>
-<a href="TBD" target="_blank">Kah Yangni</a>
-<br>
-<a href="TBD" target="_blank">Mer</a>
-<br>
-<a href="TBD" target="_blank">Ocean State Ass</a>
-<br>
-<a href="TBD" target="_blank">Legend Lowell</a>
-<br>
-<a href="TBD" target="_blank">Cherry Picking & Rosemary's Babee</a>
-<br>
-<a href="TBD" target="_blank">Motyko 305</a>
-<br>
-<a href="TBD" target="_blank">tommi parrish</a>
-<br>
-<a href="TBD" target="_blank">Sylvie Brigette </a> 
-<br>
-<a href="TBD" target="_blank">Cathy G. Johnson</a>
-<br>
-<a href="TBD" target="_blank">John-Francis Quiñonez</a>
-<br>
-<a href="TBD" target="_blank">K Czap</a>
-<br>
-<a href="TBD" target="_blank">MJ Sanqui</a>
-<br>
-<a href="TBD" target="_blank">Cardboard House Press</a>
-<br>
-<a href="TBD" target="_blank">teen zines e.t.c (from the Phoebe Griffin Noyes Library)</a>
-<br>
-<a href="TBD" target="_blank">Sabii Borno</a> 
-<br>
-<a href="TBD" target="_blank">RECIPZines for CARE</a>
-<br>
-<a href="TBD" target="_blank">Afilandra N Goncalves</a>
-<br>
-<a href="TBD" target="_blank">Haus of Glitter</a>
-<br>
-<a href="TBD" target="_blank">apollo rios lomba !</a> 
-<br>
-<a href="TBD" target="_blank">Black & Pink Providence</a>
-<br>
-<a href="TBD" target="_blank">Micah Brown Photo</a>
-<br>
-<a href="TBD" target="_blank">Jasjyot Singh Hans</a>
-<br>
-<a href="TBD" target="_blank">O Horvath</a>
-<br>
-<a href="TBD" target="_blank">Eren K Wilson</a>
-<br>
-<a href="TBD" target="_blank">GenderFail</a>
-<br>
+<!------------ EXHIBITOR LIST INDEX ------------------------->
+<ul class="exhibitor-list-index">
+<a class="exhibitor-index" alt="Afi Goncalves" href="#afi-goncalves">Afi Goncalves</a>
+<a class="exhibitor-index" alt="Beatrix Urkowitz" href="#beatrix-urkowitz">Beatrix Urkowitz</a>
+<a class="exhibitor-index" alt="bread&bone" href="#bread&bone">bread&bone</a>
+<a class="exhibitor-index" alt="Cardboard House Press" href="#cardboard-house-press">Cardboard House Press</a>
+<a class="exhibitor-index" alt="carsh" href="#carsh">carsh</a>
+<a class="exhibitor-index" alt="Cathy G. Johnson" href="#cathy-g.-johnson">Cathy G. Johnson</a>
+<a class="exhibitor-index" alt="Cherry Picking & Rosemary's Babee" href="#cherry-picking-&-rosemary's-babee">Cherry Picking & Rosemary's Babee</a>
+<a class="exhibitor-index" alt="Eat More Spiders | Marcel Mensah" href="#eat-more-spiders-|-marcel-mensah">Eat More Spiders | Marcel Mensah</a>
+<a class="exhibitor-index" alt="Eli Kauffman" href="#eli-kauffman">Eli Kauffman</a>
+<a class="exhibitor-index" alt="Em Robillard" href="#em-robillard">Em Robillard</a>
+<a class="exhibitor-index" alt="F E L I C I T A" href="#f-e-l-i-c-i-t-a">F E L I C I T A</a>
+<a class="exhibitor-index" alt="fernfloods" href="#fernfloods">fernfloods</a>
+<a class="exhibitor-index" alt="Filipa Estrela " href="#filipa-estrela-">Filipa Estrela </a>
+<a class="exhibitor-index" alt="Haley Johnson" href="#haley-johnson">Haley Johnson</a>
+<a class="exhibitor-index" alt="Haus of Codec" href="#haus-of-codec">Haus of Codec</a>
+<a class="exhibitor-index" alt="Homie House Press" href="#homie-house-press">Homie House Press</a>
+<a class="exhibitor-index" alt="John-Francis Quiñonez " href="#john-francis-quiñonez-">John-Francis Quiñonez </a>
+<a class="exhibitor-index" alt="Jules Zuckerberg" href="#jules-zuckerberg">Jules Zuckerberg</a>
+<a class="exhibitor-index" alt="June June" href="#june-june">June June</a>
+<a class="exhibitor-index" alt="K Czap" href="#k-czap">K Czap</a>
+<a class="exhibitor-index" alt="Kah Yangni" href="#kah-yangni">Kah Yangni</a>
+<a class="exhibitor-index" alt="Legend Lowell " href="#legend-lowell-">Legend Lowell </a>
+<a class="exhibitor-index" alt="Lemon Liu Press" href="#lemon-liu-press">Lemon Liu Press</a>
+<a class="exhibitor-index" alt="Many Folds Press" href="#many-folds-press">Many Folds Press</a>
+<a class="exhibitor-index" alt="Marius Marjolin" href="#marius-marjolin">Marius Marjolin</a>
+<a class="exhibitor-index" alt="Mer" href="#mer">Mer</a>
+<a class="exhibitor-index" alt="MJ Sanqui" href="#mj-sanqui">MJ Sanqui</a>
+<a class="exhibitor-index" alt="Motyko 305" href="#motyko-305">Motyko 305</a>
+<a class="exhibitor-index" alt="New Urban Arts" href="#new-urban-arts">New Urban Arts</a>
+<a class="exhibitor-index" alt="Ocean State Ass" href="#ocean-state-ass">Ocean State Ass</a>
+<a class="exhibitor-index" alt="Queer & Trans Mutual Aid PVD" href="#queer-&-trans-mutual-aid-pvd">Queer & Trans Mutual Aid PVD</a>
+<a class="exhibitor-index" alt="RECIPZines for CARE" href="#recipzines-for-care">RECIPZines for CARE</a>
+<a class="exhibitor-index" alt="Rocky's Root Care" href="#rocky's-root-care">Rocky's Root Care</a>
+<a class="exhibitor-index" alt="Roller Ink Riso" href="#roller-ink-riso">Roller Ink Riso</a>
+<a class="exhibitor-index" alt="Rowan Jude" href="#rowan-jude">Rowan Jude</a>
+<a class="exhibitor-index" alt="Sabii Borno" href="#sabii-borno">Sabii Borno</a>
+<a class="exhibitor-index" alt="Sylvie Brigette " href="#sylvie-brigette-">Sylvie Brigette </a>
+<a class="exhibitor-index" alt="teen zines e.t.c (from the Phoebe Griffin Noyes Library)" href="#teen-zines-e.t.c-(from-the-phoebe-griffin-noyes-library)">teen zines e.t.c (from the Phoebe Griffin Noyes Library)</a>
+<a class="exhibitor-index" alt="Three Fifty" href="#three-fifty">Three Fifty</a>
+<a class="exhibitor-index" alt="tommi parrish" href="#tommi-parrish">tommi parrish</a>
+<a class="exhibitor-index" alt="Unknown Era Vintage & Handmade" href="#unknown-era-vintage-&-handmade">Unknown Era Vintage & Handmade</a>
+<a class="exhibitor-index" alt="Zooey Kim Conner" href="#zooey-kim-conner">Zooey Kim Conner</a>
 </ul>
+
+<!------------ START OF EXHIBITOR LIST ------------------------->
+
+<div class="exhibitor" id="afi-goncalves">
+  <img alt="Afi Goncalves Profile Picture" src="https://dl.airtable.com/.attachments/a27a1c1b82291ac5785956c9c3188e88/926dc751/60C81F09-D574-4A49-B4EE-B81D09D16578.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">Afi Goncalves
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Afi like Coffee without the C</p>
+   </div>
+</div>
+
+<div class="exhibitor" id="beatrix-urkowitz">
+  <img alt="Beatrix Urkowitz Profile Picture" src="https://dl.airtable.com/.attachments/e3a052098d85103beb88e6852db427ce/b93bc9bd/03ADE292-0598-4EEC-AD14-2BF3AFE81061.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://bmfu.net">Beatrix Urkowitz</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Beatrix Urkowitz makes comics in Providence, Rhode Island. Her works include "She's Done it All!" and "The Beauty Theorem" for Penguin Random House, as well as "The Lover of Everyone in the World" for Popula. The latter was recently expanded into a book of the same name for Parsifal Press. She's currently developing "Penelope's Property," her first graphic novel.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://bmfu.net">https://bmfu.net</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/bmfu">https://www.instagram.com/bmfu</a>
+       <br>
+       <a target="_blank" href="https://twitter.com/bmfu">https://twitter.com/bmfu</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="bread&bone">
+  <img alt="bread&bone Profile Picture" src="https://dl.airtable.com/.attachments/bb3b2c5af810e687bdab4eaa2fd6a71c/2d1ed620/emb12.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://bellycertified.blogspot.com/">bread&bone</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">cochambrosa cartoonist extraordinaire based in Providence, RI</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://bellycertified.blogspot.com/">https://bellycertified.blogspot.com/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="cardboard-house-press">
+  <img alt="Cardboard House Press Profile Picture" src="https://dl.airtable.com/.attachments/d7d29596510a2de96a93baad2bd97a4a/9317ff57/CHPLogo.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://cardboardhousepress.org/">Cardboard House Press</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Cardboard House Press is a 501c3 nonprofit organization devoted to the creation of spaces and media for cultural, artistic, and literary development. We publish writing, art, and contemporary thought from Latin America and Spain, and host bilingual events, community projects and workshops. Our work serves as a platform to exchange ideas and highlight meanings that stimulate diverse human connections and social actions. All of our publications are bilingual— English and Spanish. To date we have published authors from Argentina, Colombia, Cuba, Chile, Ecuador, Guatemala, Mexico, Peru, Puerto Rico, Spain and Uruguay.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://cardboardhousepress.org/">https://cardboardhousepress.org/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/cardboardhousepress/">https://www.instagram.com/cardboardhousepress/</a>
+       <br>
+       <a target="_blank" href="https://twitter.com/CardboardHouseP">https://twitter.com/CardboardHouseP</a>
+       <br>
+       <a target="_blank" href="https://www.facebook.com/TheCardboardHousePress">https://www.facebook.com/TheCardboardHousePress</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="carsh">
+  <img alt="carsh Profile Picture" src="https://dl.airtable.com/.attachments/6411ebe178a47261ac7bc10ab5584f88/b3ead9c6/IMG-1591.PNG" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://ccarrion.myportfolio.com/">carsh</a>
+    </h1>
+    <p class="exhibitor-city">Providence RI</p>
+    <p class="exhibitor-bio">Puerto Rican-Mexcian, Carin (also known as Carsh) is currently studying illustration in Rhode Island and is pursuing a career in animation and comics.  In their free time, Carin likes hanging out with their fat cat Lily and haunting the comic section at their local library.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://ccarrion.myportfolio.com/">https://ccarrion.myportfolio.com/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/lamelavendersoda/">https://www.instagram.com/lamelavendersoda/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="cathy-g.-johnson">
+  <img alt="Cathy G. Johnson Profile Picture" src="https://dl.airtable.com/.attachments/44ac4077223849d7c43009c86a74e020/b419cf87/Me_QTZ_600x600.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://www.cathygjohn.net">Cathy G. Johnson</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Cathy G. Johnson is a cartoonist, printmaker and educator residing on occupied Narragansett land in Providence, Rhode Island. Her work delves into the complicated worlds of young people, exploring the hardships and joys of adolescence. She works with bright splashing colors and atmospheric grayscales, using themes of nature and rebellion. Her graphic novels include ‘Jeremiah’ (2015), ‘Gorgeous’ (2016) and ‘The Breakaways’ (2019). Her self-published comic ‘Black Hole Heart’ (2020) won an Ignatz Award.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://www.cathygjohn.net">http://www.cathygjohn.net</a>
+       <br>
+       <a target="_blank" href="http://www.comicarted.com">http://www.comicarted.com</a>
+       <br>
+       <a target="_blank" href="http://twitter.com/cathygjohn">http://twitter.com/cathygjohn</a>
+       <br>
+       <a target="_blank" href="http://instagram.com/cathygjohn">http://instagram.com/cathygjohn</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="cherry-picking-&-rosemary's-babee">
+  <img alt="Cherry Picking & Rosemary's Babee Profile Picture" src="https://dl.airtable.com/.attachments/afbe9e70d76540f58276aa25a63e5052/7699944f/IMG_4207.heic.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/rosemarysbabee/">Cherry Picking & Rosemary's Babee</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Ro & Mina are best friends. They love creating, screaming, dancing, and playing with their pussy cats. Their strong bond ignites an energetic field of beautiful chaos allowing them to make art, potions, and wearables for the community that they love to adorn. And they're slutty hot bitches. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/rosemarysbabee/">https://www.instagram.com/rosemarysbabee/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/cosecha_de.la_crereza/">https://www.instagram.com/cosecha_de.la_crereza/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="eat-more-spiders-|-marcel-mensah">
+  <img alt="Eat More Spiders | Marcel Mensah Profile Picture" src="https://dl.airtable.com/.attachments/f74d90f3c338152c3080d4bb20e5a8da/5397a613/IMG_3559.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.eatmorespiders.com/">Eat More Spiders | Marcel Mensah</a>
+    </h1>
+    <p class="exhibitor-city">Boston, MA</p>
+    <p class="exhibitor-bio">Marcel Mensah arrived in the late 90's and has developed into a multifaceted illustrator, writer and maker of all things fun and strange. Marcel's core belief is that everyone is an artist and he takes inspiration from old manga, clunky machines and grainy photography. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.eatmorespiders.com/">https://www.eatmorespiders.com/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/eat_more_spiders/">https://www.instagram.com/eat_more_spiders/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="eli-kauffman">
+  <img alt="Eli Kauffman Profile Picture" src="https://dl.airtable.com/.attachments/5f961ed251c9a71d57b6db3d3f8f13da/8183429c/Kauffman_Eli_040922_RISD22_Headshots_36022.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/eli_kauffman">Eli Kauffman</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Eli Kauffman is a fine artist from Salt Lake City, Utah. They received a BFA in Painting from Rhode Island School of Design, and completed a Maharam Fellowship with Wasatch Community Gardens in Salt Lake City. Eli primarily works with figurative painting and printmaking, as well as textiles and drawing.<br><br>Kauffman works from a combination of photos and film stills to create artificial, diegetic scenes that ultimately exist in a realm of low fantasy. The storylines are semi-autobiographical, revealing resemblance to the lives of the artist and their friends. Through an ever growing collection of reference images, they amplify the disparity between high-brow and low-brow imagery, resulting in art that references both coming of age TV shows, and dialogue surrounding contemporary figure painting. Sensational color and light are primary formal elements to support the storytelling, and reveal the melodrama in familiar experiences.<br></p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/eli_kauffman">https://www.instagram.com/eli_kauffman</a>
+       <br>
+       <a target="_blank" href="https://elikauffman.squarespace.com">https://elikauffman.squarespace.com</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="em-robillard">
+  <img alt="Em Robillard Profile Picture" src="https://dl.airtable.com/.attachments/3bba3744639958631f4b58988866f644/79d1eae1/B1D363B6-2E22-4177-B3EA-3DEBAC3ABA6C.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.Instagram.com/Comicsbyrobillard">Em Robillard</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI </p>
+    <p class="exhibitor-bio">Em Robillard is a Providence based illustrator, illustrative designer, comics artist and writer. They have a cat named Leo and enjoy the phrase “all that and a bag of chips”</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.Instagram.com/Comicsbyrobillard">https://www.Instagram.com/Comicsbyrobillard</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="f-e-l-i-c-i-t-a">
+  <img alt="F E L I C I T A Profile Picture" src="https://dl.airtable.com/.attachments/142361d630afcbe3c3309822b5339d4a/e960ed7a/IMG_1154.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/f.eli.cita">F E L I C I T A</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI // Fort Lauderdale, Florida</p>
+    <p class="exhibitor-bio">Felicita is a Puerto Rican / Irish American transdisciplinary artist from Fort Lauderdale, FL, currently in Providence, RI. Their research reflects upon their personal consumption of digital culture and technology. As technology further intermeshes the internet into the physical realm, it has produced its own materiality into our culture. They are primarily focused on how technology is a portal for queer expression. As a way to unload the fluidity & formlessness of gender and identity through themes of the unknown.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/f.eli.cita">https://www.instagram.com/f.eli.cita</a>
+       <br>
+       <a target="_blank" href="https://felicita.digital">https://felicita.digital</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="fernfloods">
+  <img alt="fernfloods Profile Picture" src="https://dl.airtable.com/.attachments/41df3e85e3b9e646b2c798569b441101/c802dc41/F350810C-B068-4BD4-82B8-58E1CD3515E0.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://www.fernfloods.com/">fernfloods</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">they are a local artist that loves screen printing and drawing silly little clowns</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://www.fernfloods.com/">http://www.fernfloods.com/</a>
+       <br>
+       <a target="_blank" href="http://www.instagram.com/fernfloodsart">http://www.instagram.com/fernfloodsart</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="filipa-estrela-">
+  <img alt="Filipa Estrela  Profile Picture" src="https://dl.airtable.com/.attachments/1c3a28ab572f8043b7926d5008f45cb0/46ff4ee0/22-07-01-00-03-06-422_deco.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://feltmythical.com/">Filipa Estrela </a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">My name is Filipa Estrela (any pronouns) , I am a queer, gender-fluid, Cape-Verdean/Macanese-Chinese/Portuguese mixed person of color. I am a working artist who makes comics, crafts and I am constantly seeking new creative skills. My creative practice is a lot about experimenting, exploring, and discovering new things about myself, my work, and the world around me.  <br></p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://feltmythical.com/">https://feltmythical.com/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/feltmythical">https://www.instagram.com/feltmythical</a>
+       <br>
+       <a target="_blank" href="https://www.twitter.com/fylisfe">https://www.twitter.com/fylisfe</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="haley-johnson">
+  <img alt="Haley Johnson Profile Picture" src="https://dl.airtable.com/.attachments/bab83f9af596a2d9e1d823f59751d01a/6d2a42ba/Haley_Johnson_Headshot.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://www.instagram.com/16pointceramics">Haley Johnson</a>
+    </h1>
+    <p class="exhibitor-city">Attleboro, MA</p>
+    <p class="exhibitor-bio">Haley Johnson (They, Them) is a Mashpee Wampanoag citizen invested in youth action, the arts, and education. Graduating with a ceramics degree from Rhode Island College in 2021, Johnson now coordinates classes and programs at The Steel Yard, an industrial arts nonprofit, intending to continue making the studios more equitable for students and residents to learn and create. They are the 2022 Work Share Fellow and have been awarded the 2023 Merit fellowship in the ceramics department to continue their studio practices. Johnson is also an Indigenous Empowerment Intern at the Tomaquag Museum, teaching Indigenous history and cultural lifeways during the museum's open days. Additionally, They sit on the board of directors for Rhode Island's first and only transition age (18-24) youth homeless shelter. Johnson has been providing support and case management for the youth housed in the six-bed facility since 2021. In their free time, Johnson likes identifying plants on long hikes, camping, and cooking new foods! </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://www.instagram.com/16pointceramics">http://www.instagram.com/16pointceramics</a>
+       <br>
+       <a target="_blank" href="https://www.haleyjohnson.net">https://www.haleyjohnson.net</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="haus-of-codec">
+  <img alt="Haus of Codec Profile Picture" src="https://dl.airtable.com/.attachments/0ca47bacc9fa4f7672ffa6b53c4dc75c/0972398a/HausofCodec-2.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/hausofcodec">Haus of Codec</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Mission: Building community through the arts and Educational Empowerment. Based in the Creative Capital, Haus of Codec is committed to ensuring an end to transition-aged youth homelessness in Providence through the arts and workforce development.<br><br>Vision: To create a safer and more accessible means to housing, care, and essential services for displaced transition aged youth.<br><br>co·dec: /ˈkōdek/ noun<br><br>noun: codec; plural noun: codecs<br><br>a device or program that compresses data to enable faster transmission and decompresses received data for Video and Audio.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/hausofcodec">https://www.instagram.com/hausofcodec</a>
+       <br>
+       <a target="_blank" href="https://www.HausofCodec.org">https://www.HausofCodec.org</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="homie-house-press">
+  <img alt="Homie House Press Profile Picture" src="https://dl.airtable.com/.attachments/669b44ba0cbae8f398a8604c83fead9c/201e047b/_DSC0022copia.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://www.adrianastories.com/new-products">Homie House Press</a>
+    </h1>
+    <p class="exhibitor-city">Beltsville, MD + Milan, IT</p>
+    <p class="exhibitor-bio">Homie House Press is a sisterhood, an evolving plan, and a sci-fi sequence where historically underrepresented folx are equipped with the tools to create + publish in the foto book medium. We are visual recorders navigating the current moment with a wolfpack mentality. Community over everything means that we confront with care. We are color-nerd, glitter-obsessed, sticker collectors. Call us book fairies. We are a playground where joy is big and pleasure is major. Safe spaces aren’t always accessible, but we do our best to be the big spoon. We reemerge secret stories with gentle wonder and welcome close examination. The result is always honest, sometimes playful allegory, and other times irreverent fables. Find us in the nuance between cuddling and mycelium.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://www.adrianastories.com/new-products">http://www.adrianastories.com/new-products</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/homiehousepress/">https://www.instagram.com/homiehousepress/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="john-francis-quiñonez-">
+  <img alt="John-Francis Quiñonez  Profile Picture" src="https://dl.airtable.com/.attachments/50b72cb62f52e2250750d23cb947caf1/7730ed50/Picsart_22-04-19_14-00-32-438.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="Https://www.johnfrancisquinonez.com">John-Francis Quiñonez </a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">John-Francis Quiñonez is a <br>Desert Flower weathering Providence, RI//<br>An Artist & Writer/// Cultivating Whimsy ////<br>Has a Full Length of Poems "Keep Your Little Lights Alive (Poems After Kate Bush's 'Hounds of Love' and Others" coming out with Writebloody October "22</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="Https://www.johnfrancisquinonez.com">Https://www.johnfrancisquinonez.com</a>
+       <br>
+       <a target="_blank" href="Https://www.instagram.com/q_buckaroo ">Https://www.instagram.com/q_buckaroo </a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="jules-zuckerberg">
+  <img alt="Jules Zuckerberg Profile Picture" src="https://dl.airtable.com/.attachments/c17b61a848db1a7f09bb7bf8161e1210/cabfecd2/julesexhibitorphoto.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/juleszuckerberg/">Jules Zuckerberg</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI </p>
+    <p class="exhibitor-bio">Jules Zuckerberg is a queer trans cartoonist & craftsperson. They draw & write comics, craft weird critters, and enjoy explorations of kitschy playful interdisciplinary art-making. They grew up in the woods of NY, where they first discovered their love for observing and drawing animals, developing a huge soft spot for insects, amphibians, and anyone else that might be hiding under a log. As they grew into an adult and embraced their own queerness, their art developed alongside, evolving to embody themes of identity through both autobiographical and educational content. They love to amalgamate their many interests and experiences, often resulting in colorful drawings and comics of gay animal people. If you hang out enough times they might draw you a fursona.<br></p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/juleszuckerberg/">https://www.instagram.com/juleszuckerberg/</a>
+       <br>
+       <a target="_blank" href="https://twitter.com/juleszuckerberg">https://twitter.com/juleszuckerberg</a>
+       <br>
+       <a target="_blank" href="https://juleszuckerberg.tumblr.com/">https://juleszuckerberg.tumblr.com/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="june-june">
+  <img alt="June June Profile Picture" src="https://dl.airtable.com/.attachments/f5bce5731c0f1c94eef9ad2747b9c2ef/cc274e93/31F0581E-D706-4FD1-A157-125A953E9CC5.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">June June
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">June is a stuttering organizer, librarian, and transsexual. They have zines about abolition and disability and family stuff. It's personal! It's sad! It's hot! </p>
+   </div>
+</div>
+
+<div class="exhibitor" id="k-czap">
+  <img alt="K Czap Profile Picture" src="https://dl.airtable.com/.attachments/09c7531a170d633b35d546425d35f9fd/4b9fcaf5/0420_KCzap-Headshot_600px.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://kevinczap.com/">K Czap</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">K Czap (pronounced “chap”) makes comics about friendship, community, & transcendence. They are the author of Four Years and Fütchi Perf, co-publisher of the Ignatz Award-nominated Ley Lines, colorist of The Breakaways and Freestyle, and the '17-'18 Cartooning Fellow at CCS. They live and work out of Providence, RI.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://kevinczap.com/">http://kevinczap.com/</a>
+       <br>
+       <a target="_blank" href="https://twitter.com/charmgardens">https://twitter.com/charmgardens</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/charmgardens/?hl=en">https://www.instagram.com/charmgardens/?hl=en</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="kah-yangni">
+  <img alt="Kah Yangni Profile Picture" src="https://dl.airtable.com/.attachments/0fca422b3e6851c82c7aa57f79f23441/5ed6f165/kah600X600.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/kahyangni">Kah Yangni</a>
+    </h1>
+    <p class="exhibitor-city">Philadelphia, PA</p>
+    <p class="exhibitor-bio">Kah Yangni is an illustrator living in Philadelphia, PA. They make heartfelt art about queerness and joy. Kah’s artistic mission is to heal themself and others by making art that focuses on radical optimism and the what we can do to make the world a more awesome place. Kah uses text, vibrating color, screenprinting, drawing, Photoshop, and collage to bring these messages to life.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/kahyangni">https://www.instagram.com/kahyangni</a>
+       <br>
+       <a target="_blank" href="http://www.kahyangni.com/">http://www.kahyangni.com/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="legend-lowell-">
+  <img alt="Legend Lowell  Profile Picture" src="https://dl.airtable.com/.attachments/6efcfb888f8dc7a9e6429b45225cd91c/458c44d9/20220306_160333.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://blackwizardclub.tumblr.com">Legend Lowell </a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Legend is a non-binary writer specializing in Fantasy and fiction set in "reality"</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://blackwizardclub.tumblr.com">http://blackwizardclub.tumblr.com</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/blackwizardclub/">https://www.instagram.com/blackwizardclub/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="lemon-liu-press">
+  <img alt="Lemon Liu Press Profile Picture" src="https://dl.airtable.com/.attachments/38edd41aaebc9f472495b4e90bbea8c1/afa23dcd/LemonLiuExhibitorPhoto" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.lemonliuart.com">Lemon Liu Press</a>
+    </h1>
+    <p class="exhibitor-city">Wall, NJ</p>
+    <p class="exhibitor-bio">Lemon Liu Press is a small publishing company that focuses on telling the stories of butch lesbians of color. The business is run by Liuxing Johnston, a New Jersey based cartoonist who loves nothing more than drawing romance comics and and watering their ever growing family of houseplants.  </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.lemonliuart.com">https://www.lemonliuart.com</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/lemonliupress/?hl=en ">https://www.instagram.com/lemonliupress/?hl=en </a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="many-folds-press">
+  <img alt="Many Folds Press Profile Picture" src="https://dl.airtable.com/.attachments/1273163b706840f51b9eb4eb83a448ac/9afc984d/MFP_placemat_square3.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/manyfortunes">Many Folds Press</a>
+    </h1>
+    <p class="exhibitor-city">Philadelphia, PA</p>
+    <p class="exhibitor-bio">Many Folds Press is a Philadelphia-based risograph studio, and an extension of FORTUNE, a print collective assembled by/for queer and trans Asians. We work to provide accessible and responsive print services, primarily in Philadelphia, to make room for more queer BIPOC stories, and to celebrate our own — in material forms, in multiples. <br><br>Our zines broadly include resource guides and functional objects, and are distributed through alternative, slow, or intentional ways.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/manyfortunes">https://www.instagram.com/manyfortunes</a>
+       <br>
+       <a target="_blank" href="https://www.printingfortunes.info">https://www.printingfortunes.info</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="marius-marjolin">
+  <img alt="Marius Marjolin Profile Picture" src="https://dl.airtable.com/.attachments/ab23285053f347b40a87f93a80728101/9fced1d9/F457E997-68B1-494C-B62C-950E5A0E134F.JPG" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/tofu.twink">Marius Marjolin</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Marius Marjolin is a queer Khmerican printmaker and illustrator based in Providence. Their work is inspired by their Cambodian heritage and their love of deep sea creatures. They will be selling screen prints and digital fine art prints of their work, as well as patches and stickers. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/tofu.twink">https://www.instagram.com/tofu.twink</a>
+       <br>
+       <a target="_blank" href="https://mariusmarjolin.com">https://mariusmarjolin.com</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="mer">
+  <img alt="Mer Profile Picture" src="https://dl.airtable.com/.attachments/91d1ce9520c4d6c86942fd15298c94a5/34a52188/5.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/clayplay_xx/">Mer</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Mer is a ceramix artist among other things! come see their cute and hot faeries, fountains, angels, demons, and mortal girls. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/clayplay_xx/">https://www.instagram.com/clayplay_xx/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="mj-sanqui">
+  <img alt="MJ Sanqui Profile Picture" src="https://dl.airtable.com/.attachments/4ef773fc7e0359c9f4005c9e672f2ae4/b7ba617f/MJSanqui_Photo.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://mjsnq.com">MJ Sanqui</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">MJ Sanqui (they / them) is a Filipino multidisciplinary artist, designer, and writer from Western North Carolina, currently living in Providence. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://mjsnq.com">https://mjsnq.com</a>
+       <br>
+       <a target="_blank" href="https://instagram.com/catharta__">https://instagram.com/catharta__</a>
+       <br>
+       <a target="_blank" href="https://instagram.com/mjsnq__">https://instagram.com/mjsnq__</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="motyko-305">
+  <img alt="Motyko 305 Profile Picture" src="https://dl.airtable.com/.attachments/a729902c6b288f84866148632eae4951/bc3f3c0f/69D1CB45-B902-4D18-9B2C-7D183F6C26F0.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://motyko.me">Motyko 305</a>
+    </h1>
+    <p class="exhibitor-city">Miami, FL</p>
+    <p class="exhibitor-bio">Motyko is the name my mami gave me ; a term of endearment. <br>It is the form I take to experience myself. Motyko speaks through historical and cultural iconography, bold colors and textures, the language and energy of social movements, and all of my favorite home cooked meals. <br><br>Growing up I was told to pick and choose between being a lawyer and a doctor. My mami didn’t know that all her spending on crayons and notebooks meant doodling and in true crayon to paper fashion, imagining a world more just and better than our current one. I never picked up a stethoscope but I did listen to the stories of Miguel and Tina, and organized to imagine a world where they weren’t struggling; where they were free. I didn’t become a lawyer (yet!😳) but I organize and strategize to help build a world free of cages and design pieces that translate complex narratives of identity and belonging into digital form.<br><br>With these tools at my side and in the palms of my hands, I create and capture imagery that translates my multicultural and multipurpose existence into our shared realm. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://motyko.me">https://motyko.me</a>
+       <br>
+       <a target="_blank" href="https://www.Instagram.com/motyk0">https://www.Instagram.com/motyk0</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="new-urban-arts">
+  <img alt="New Urban Arts Profile Picture" src="https://dl.airtable.com/.attachments/ca6eef38cb88694a1cfc6cdb0d512463/b1a75f56/NUA.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="www.newurbanarts.org">New Urban Arts</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Founded in 1997, New Urban Arts is a nationally-recognized community arts studio for high school students and emerging artists. Our mission is to build a vital community that empowers young people as artists and leaders to develop a creative practice they can sustain throughout their lives. <br><br>Our free, year-round out-of-school programs promote sustained mentoring relationships between urban high school students and trained artist mentors—who, together, engage in youth leadership, risk taking, collaboration, and self-directed learning.<br><br>All the work exhibited at the NUA table at QTZ is made by students at New Urban Arts, and all sales will go to the creators.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="www.newurbanarts.org">www.newurbanarts.org</a>
+       <br>
+       <a target="_blank" href="www.instagram.com/newurbanarts">www.instagram.com/newurbanarts</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="ocean-state-ass">
+  <img alt="Ocean State Ass Profile Picture" src="https://dl.airtable.com/.attachments/5cdb63e8cf3357b45a5ba097cb1f2b65/b1ec976e/assbunnyyysbyn.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://oceanstateadvocacy.org/https://www.instagram.com/oceanstateass/">Ocean State Ass</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Ocean State Advocacy is a constantly growing community-based organization of current & former sex workers.<br><br>We are an anti-racist, anti-transphobic, anti-whorephobic organization accepting of all backgrounds & experiences within sex work.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://oceanstateadvocacy.org/https://www.instagram.com/oceanstateass/">https://oceanstateadvocacy.org/https://www.instagram.com/oceanstateass/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="queer-&-trans-mutual-aid-pvd">
+  <img alt="Queer & Trans Mutual Aid PVD Profile Picture" src="https://dl.airtable.com/.attachments/b5ef01af967cea5fd48e4914c9831f68/81ccdfef/logo.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/qtma.pvd/?hl=en">Queer & Trans Mutual Aid PVD</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">QTMA PVD is a small, volunteer-run and donation-based mutual aid fund for queer and trans folks in the Providence, RI area. We have distributed over $80,000 to LGBTQIA+ Rhode Islanders since our founding in June 2020.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/qtma.pvd/?hl=en">https://www.instagram.com/qtma.pvd/?hl=en</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="recipzines-for-care">
+  <img alt="RECIPZines for CARE Profile Picture" src="https://dl.airtable.com/.attachments/d7769a08c8874540d185fa7b70bb97a0/7c20f341/Mei.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/zhengmeide/">RECIPZines for CARE</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Born in Lenapehoking [Brooklyn, NY] and raised on Lenapehoking/Schaghticoke/Wappinger land [Stamford, CT], by resilient and caring immigrant parents of NEW CHINA KING, Mei Zheng [they/them] is a First-Gen, Queer, Non-Binary, Chinese-American, discursive and experience designer valuing presence, resiliency, and care in organizing community-led solidarity and action. Double concentrating in Nature-Culture-Sustainability Studies + History-Philosophy-Social Sciences with Industrial Design at the Rhode Island School of Design [RISD], Mei explores how they care for the earth through regrowth [+care]: spatially, emotionally, and materially. Currently, they are reconnecting with their parents' Fujianese cooking through rest and cooking as an act of rest where ingredients are unique to their own either by hand or by taste. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/zhengmeide/">https://www.instagram.com/zhengmeide/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="rocky's-root-care">
+  <img alt="Rocky's Root Care Profile Picture" src="https://dl.airtable.com/.attachments/a7ac60a16987370936a00e1c756b01d9/39937daa/rockydreamyheadshotwhiteflowers.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="www.instagram.com/rockysrootcare">Rocky's Root Care</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Rocky Douglas (she/her) is a fine 🍑 southern belle that sprouted and blossomed on the south side of Houston. She’s an herbalist, multimedia artist, event planner, and business owner who cultivates various forms of healing and joy for herself and others as often as she can. She’s currently a 3rd-year Ph.D. student who just graduated with her Masters's in Sociology from Brown University and was awarded honors for her Master’s thesis titled “Trauma is Carried in the Spirit: The Praxis, Pedagogy, and Freedom Dreams of Black Women’s Healing Faith Practices.” She’s also so much more than these titles and accolades—she’s Christina’s daughter, a Douglas, Morris, and a Johnson—which means she’s stubborn, brilliant, and skilled at making a way outta no way. When she’s not cooking, spending time in nature, or writing, she enjoys hosting community events on spiritual care, self-love, and various healing modalities or sharing her homemade products with her communities. She first committed herself to a spiritual journey to heal from PTSD and alcoholism—she continues so she can navigate the anxiety and shadows of these 20-somethings in the 2020s. At her core, she prays that her business, her website, her research, her art—everything that comes out of her really—helps her community and herself heal, find joy, and freedom dream beyond our wounds/traumas. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="www.instagram.com/rockysrootcare">www.instagram.com/rockysrootcare</a>
+       <br>
+       <a target="_blank" href="www.rockysrootcare.com">www.rockysrootcare.com</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="roller-ink-riso">
+  <img alt="Roller Ink Riso Profile Picture" src="https://dl.airtable.com/.attachments/e3ac33a635d07dd97c90b7480a789173/d7ab14e9/RollerInkRisoLogo_withbgtextured.png" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/rollerinkriso">Roller Ink Riso</a>
+    </h1>
+    <p class="exhibitor-city">Brooklyn, NY</p>
+    <p class="exhibitor-bio">Roller Ink Riso is a risograph print studio based in Brooklyn, NY (Lenape native land) run and operated by Zarrin Karimi (they/them), Kenisha Rullan (she/they), and Sapphrodite (they/them).<br><br>Their studio is centered around community, accessibility, and uplifting Queer and BIPOC expression.<br><br>Their services include: consultation, open studio time, risograph education, workshops, publication, and print orders such as art prints, zines, books, flyers, and so forth. <br></p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/rollerinkriso">https://www.instagram.com/rollerinkriso</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="rowan-jude">
+  <img alt="Rowan Jude Profile Picture" src="https://dl.airtable.com/.attachments/c38f05dee75ddc20f5ec9717969cbb35/f18edd54/600x600.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/tilwinter/">Rowan Jude</a>
+    </h1>
+    <p class="exhibitor-city">Southampton, MA</p>
+    <p class="exhibitor-bio">Rowan Jude (they/he) is a queer, transmasc, Latinx, and black mixed media artist hoping to capture the complex coexistence of glee and tragedy, often associated with circus clowns, in his work. They are currently operating out of western MA, where they spend their days as a community organizer and student, all while dreaming of the isles of New Zealand.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/tilwinter/">https://www.instagram.com/tilwinter/</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/modern_rage/">https://www.instagram.com/modern_rage/</a>
+       <br>
+       <a target="_blank" href="https://juderowan.wordpress.com/">https://juderowan.wordpress.com/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="sabii-borno">
+  <img alt="Sabii Borno Profile Picture" src="https://dl.airtable.com/.attachments/05ee22154b30dd7e32f3acde2fed942f/88b4cbb8/78D4DDC3-30AB-42E0-8FA8-09C3EA4D14C2.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://sabiiborno.com">Sabii Borno</a>
+    </h1>
+    <p class="exhibitor-city">Queens,NY</p>
+    <p class="exhibitor-bio">Hello I’m Sabii! (She/They) an illustrator from Queens, New York! I make comics mostly about myself, thoughts, and experiences and love to draw things that interest me! Mostly cool shapes , girls, hair, and other objects I enjoy! I work primarily in print! From Risograph printing to silkscreening I just really love the printmaking process! Excited to see you all at the Zinefest! </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://sabiiborno.com">https://sabiiborno.com</a>
+       <br>
+       <a target="_blank" href="https://instagram.com/sabiiborno">https://instagram.com/sabiiborno</a>
+       <br>
+       <a target="_blank" href="https://twitter.com/sabiiborno">https://twitter.com/sabiiborno</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="sylvie-brigette-">
+  <img alt="Sylvie Brigette  Profile Picture" src="https://dl.airtable.com/.attachments/405fd604b6fdf0535e878da87ca4f6b2/008bd700/65E73B99-EC0A-4EDE-9BA1-9BE8B49B55F8.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/venusdechocomilo">Sylvie Brigette </a>
+    </h1>
+    <p class="exhibitor-city">Vergennes, VT</p>
+    <p class="exhibitor-bio">Sylvie Brigette is a self professed “touch-and-go” artist exploring the curiosities of life. As a Rhode Islander occasionally residing in Vermont, she turns to art when not working in healthcare. Her work expands on her views of being a west African migrant, taking up space as a plus size black woman, mental health, and varying definitions of the word ”Home”. <br><br>Please stop by her table & have a conversation about any of these topics! There will be an exhibit of miniature shrines breaching the subjects above as well as paired poetry zines.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/venusdechocomilo">https://www.instagram.com/venusdechocomilo</a>
+       <br>
+       <a target="_blank" href="https://www.instagram.com/cil.vee">https://www.instagram.com/cil.vee</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="teen-zines-e.t.c-(from-the-phoebe-griffin-noyes-library)">
+  <img alt="teen zines e.t.c (from the Phoebe Griffin Noyes Library) Profile Picture" src="https://dl.airtable.com/.attachments/7de51dc1994eea4b6512f78fcea2a461/672462b5/imageforqtzweb.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/olpgn_library/">teen zines e.t.c (from the Phoebe Griffin Noyes Library)</a>
+    </h1>
+    <p class="exhibitor-city">Old Lyme, CT</p>
+    <p class="exhibitor-bio">The Teen Department at the Phoebe Griffin Noyes Library offers a variety of programs that showcase the power of art, encourage civic engagement, and celebrates local creative talent.<br><br>The Teen Department chooses content that prioritizes community responsibility and shows youth how skills and studies are implemented in the world beyond school.<br><br>The Library also offers all kinds of learning experiences that are not connected to tests or grades, such as: Art Kits To-Go, Volunteering Opportunities, Book Boxes, and a welcoming, all ages, social space with no entrance fee, and non-structured time!<br><br>To find out more, reach out to Nike, Teen Librarian, at ndesis@oldlymelibrary.org</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/olpgn_library/">https://www.instagram.com/olpgn_library/</a>
+       <br>
+       <a target="_blank" href="https://www.oldlymelibrary.org">https://www.oldlymelibrary.org</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="three-fifty">
+  <img alt="Three Fifty Profile Picture" src="https://dl.airtable.com/.attachments/86d8df5dff34daf899c89001761519ce/78582b71/FullSizeR5.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/threefiftycollective">Three Fifty</a>
+    </h1>
+    <p class="exhibitor-city">Brooklyn, NY</p>
+    <p class="exhibitor-bio">Three Fifty is a collective focused on promoting the mediums of artists’ books, zines, comics, and other self-published printed matter by providing a distribution platform for independent artists. Rooted in the DIY spirit, Three Fifty aims to share artists’ work beyond the confines of the gallery, in order to improve equitable and affordable access to the arts. The publications in Three Fifty’s catalog are expansive in both content and style, working with themes and subjects including personal narrative, abstraction, poetry, socio-political issues, technology, and queer & trans identity. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/threefiftycollective">https://www.instagram.com/threefiftycollective</a>
+       <br>
+       <a target="_blank" href="https://threefiftycollective.tumblr.com">https://threefiftycollective.tumblr.com</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="tommi-parrish">
+  <img alt="tommi parrish Profile Picture" src="https://dl.airtable.com/.attachments/2fd08569de663deb994f9aa72fc9c461/e75853a3/forbio.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/tommi_pg/">tommi parrish</a>
+    </h1>
+    <p class="exhibitor-city">Leverett, MA</p>
+    <p class="exhibitor-bio">Tommi Parrish draws pretty picture books and then hand paints them. Their second big book 'men i trust' is out with Fantagraphics this fall.  </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/tommi_pg/">https://www.instagram.com/tommi_pg/</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="unknown-era-vintage-&-handmade">
+  <img alt="Unknown Era Vintage & Handmade Profile Picture" src="https://dl.airtable.com/.attachments/c74cb9cfc409f24ad8bf4177e81e09ac/399fe2f8/3E1DE835-1F16-431C-BBD8-1C26B2905C3E.jpeg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="http://www.Instagram.com/unknowneravintage">Unknown Era Vintage & Handmade</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI </p>
+    <p class="exhibitor-bio">Repurposed vintage and handmade garments produced in Providence, RI. </p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="http://www.Instagram.com/unknowneravintage">http://www.Instagram.com/unknowneravintage</a></p>
+   </div>
+</div>
+
+<div class="exhibitor" id="zooey-kim-conner">
+  <img alt="Zooey Kim Conner Profile Picture" src="https://dl.airtable.com/.attachments/ff3ab72e0696277efb1e01f129f8372b/977a9f5b/2022_headshot.jpg" class="exhibitor-photo">
+  <div class="exhibitor-info">
+    <h1 class="exhibitor-name">
+      <a target="_blank" href="https://www.instagram.com/radiantroadkill">Zooey Kim Conner</a>
+    </h1>
+    <p class="exhibitor-city">Providence, RI</p>
+    <p class="exhibitor-bio">Zooey is a mixed-Korean queer + trans artist making zines, jewelry, amateur taxidermy, costumes, and other handmade objects. Driven by broad, morbid curiosity, their work addresses whatever excites them: the human relationship with nature, Asian-American identity, marginality, death, cool-looking bugs. They live in Providence, Rhode Island.</p>
+    <p class="exhibitor-links">
+       <a target="_blank" href="https://www.instagram.com/radiantroadkill">https://www.instagram.com/radiantroadkill</a>
+       <br>
+       <a target="_blank" href="https://ratchurch.info/">https://ratchurch.info/</a>
+       <br>
+       <a target="_blank" href="https://ko-fi.com/ratchurch/shop">https://ko-fi.com/ratchurch/shop</a></p>
+   </div>
+</div>
+
+<!------------ END OF EXHIBITOR LIST ------------------------->
+
+
 </div>
 
 
