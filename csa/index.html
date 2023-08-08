@@ -23,7 +23,7 @@
   <style>
 
 body {
-  background-image: url('../images/400/400-52.jpg');
+  background-image: url('../images/csa-coming-soon.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
@@ -43,6 +43,20 @@ h4 {
   background-color: white;
   padding: 8px;
 }
+.grid-container3 {
+  column-count: 2;
+  grid-template-columns: 50% 50%;
+  padding: 5px;
+  background-color: none;
+}
+
+.grid-container2 {
+  column-count: 2;
+  grid-template-columns: 50% 50%;
+  padding: 5px;
+  background-color: none;
+}
+
 .grid-item {
   background-color: none;
   border: none;
@@ -51,6 +65,97 @@ h4 {
   color: black;
   text-align: center;
 }
+
+.grid-item3 {
+  display: inline-block;
+  width: 100%;
+  background-color: none;
+  border: none;
+  padding: 5px;
+  font-size: 2vw;
+  color: black;
+  background-color: none;
+  text-align: left;
+  color: black
+}
+
+.grid-item2 {
+  display: inline-block;
+  width: 100%;
+  background-color: none;
+  border: none;
+  padding: 5px;
+  font-size: 2vw;
+  color: black;
+  background-color: none;
+  text-align: left;
+  color: black
+}
+
+.grid-item3 img {
+  background-color: none;
+  border: none;
+  max-width: 100%;
+
+}
+
+.grid-item2 img {
+  background-color: none;
+  border: none;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+.grid-container {
+  column-count: 2;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: black;
+  padding: 0px;
+}
+
+.grid-container3 {
+  column-count: 1;
+  grid-template-columns: 100%;
+  padding: none;
+}
+
+.grid-item {
+  display: inline-block;
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  font-size: 3vw;
+  color: blueviolet;
+  text-align: center;
+}
+
+.grid-item2 {
+  display: inline-block;
+  width: 100%;
+  background-color: none;
+  border: none;
+  padding: 5px;
+  font-size: 3vw;
+  color: black;
+  background-color: none;
+  text-align: left;
+  color: black
+}
+
+.grid-item3 {
+  display: inline-block;
+  width: 100%;
+  background-color: none;
+  border: none;
+  padding: 5px;
+  font-size: 4vw;
+  color: black;
+  background-color: none;
+  text-align: left;
+  color: black
+}
+}
+
 
 @media screen and (max-width: 800px) {
 .grid-container {
@@ -90,36 +195,6 @@ h4 {
 
 }
 
-/* CSA styles */
-.responsive-module {
-  width: 100%;
-  padding: 1.5em 0;
-  font-size: 2em;
-}
-
-.responsive-module img {
-  padding: .5em;
-  max-width: 100%;
-}
-
-.featured-module {
-  background-color: violet;
-  border-radius: 1em;
-  margin-bottom: 1em; 
-}
-
-@media screen and (min-width: 50em) {
-  .responsive-module {
-    width: 31%;
-    float:left; 
-    padding: 1%;
-  }
-  
-  .responsive-module {
-    font-size: 3em;
-  }
-}
-
 </style>
 </head>
 <body>
@@ -127,14 +202,14 @@ h4 {
 <!------------ page header ------------------------------------->
 
 <h2>
-<div style="text-align: left;"><span style="background-color: white"><a class="white" href="../index.html">Queer.Archive.Work</a>/studio</span></div>
+<div style="text-align: left;"><span style="background-color: white"><a class="white" href="../index.html">Queer.Archive.Work</a></span><span style="color: white">/CSA</span></div>
 </h2>
 
 
 <br>
 <div class="grid-container">
   <div class="grid-item"><a href="../about/index.html">About</a></div>
-  <div class="grid-item">Binch/QAW Studio</div>
+  <div class="grid-item"><a href="../index.html">Binch/QAW Studio</a></div>
   <div class="grid-item"><a href="../publications/index.html">Publications</a></div>
   <div class="grid-item"><a href="../residency/index.html">Residency</a></div> 
   <div class="grid-item"><a href="../library/index.html">Library</a></div>
@@ -154,83 +229,135 @@ h4 {
 <!------------ image ------------------------------------>
 
   <img src="../images/csa/Binch-CSA-Spread_brighter-background.jpg" style="max-width: 100%;display:inline-block;" alt="Binch Print CSA rainbow" />
+  <h4>
+    CSA Shares from years past. 
+  </h4>
+  
+</div>
 
 
 <!------------ Info ------------------------------------->
 
-  <div style="padding: 3em 0 ;">
-    <h2 style="text-align: left; margin-bottom: .5em;">
-      Inspired by Farm CSAs (community supported agriculture), our Print CSA is a <span style= "color: white; background-color: darkviolet;">subscription-based</span> share where you will receive a bundle featuring printed goods by our studio community.
-    </h2>
-    <h2 style="text-align: left; margin-bottom: .5em;">
-        The Print CSA subscription is <span style= "color: white; background-color: fuchsia;">seasonal</span>, where you will receive <span style= "color: white; background-color: darkviolet;">four shares throughout the year</span>.
-    </h2>
-  </div>
+  <div class="grid-container3" style="max-height: ;">
+  	<div class="grid-item3">
+	  <div class="colorblock8" style="">
+	    <h2 style="text-align: left; margin-bottom: .5em; font-size: 2.5rem;line-height: 1.25em;">
+	      Inspired by Farm CSAs (<em>community supported agriculture</em>), our Print CSA is community supported *art*, a <span style= "color: white; background-color: darkviolet;">subscription-based</span> share where you will receive a bundle featuring printed goods by our studio community.
+	    </h2>
+	    <h2 style="text-align: left; margin-bottom: .5em; font-size: 2.5rem;line-height: 1.25em;">
+	        The Print CSA subscription is <span style= "color: white; background-color: fuchsia;">seasonal</span>, where you will receive <span style= "color: white; background-color: darkviolet;">four shares throughout the year</span>.
+	    </h2>
+	  </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+<!------------ Full CSA Subscription ------------------------->
+
+	<div class="grid-item3">
+	  <div class="colorblock8" style="">
+		  <h2 style= "color: white;background-color: fuchsia; display: inline-block;text-align: left;padding:0;">Full CSA Share</h2>
+		  <ul>
+	      	<li><strong>Four to six prints</strong> &mdash; a beautiful variety</li>
+	      	<li><strong>Limited Edition!</strong></li>
+	      	<li><strong>Hand-printed mailer envelopes</strong>*</li>
+	        <li><strong>$60&ndash;$120</strong></li>
+	      </ul>
+	      <button>(PLACEHOLDER FOR BUTTON)</button>
+	      <img src="../images/csa/illus_2.png" style="max-width: 100%; display:inline-block; margin-bottom: 1em;" alt="Print CSA illustration" />
+	   </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+<!------------ image ------------------------------------>
+  	
+  	<div class="grid-item3">
+	  <div class="colorblock8" style="">
+	  	<img src="../images/csa/PRINT-CSA.png" style="max-width: 100%; display:inline-block;" alt="Subscribe to the Print CSA" />
+	  	<h4>
+		    Poster by Binch Press X QAW members Felipa Estrela and Jules Zuckerberg. 
+		  </h4>
+	  </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+  </div><!-- END GRID CONTAINER -->
+  	
+ <!------------ Print of the Season Subscription ------------------------->
+
+<div class="grid-container3" style="max-height: ;">
+	<div class="grid-item3">
+	  <div class="colorblockpink" style="">
+		  <h2 style= "color: white; background-color: fuchsia; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Print-Of-The-Season</h2>
+		  <p><strong>Is a full share too much of a commitment?</strong> The Print-Of-The-Season subscription is perfect for you!</p>
+		  <ul>
+	      	<li><strong>One beautiful print per season</strong></li>
+	        <li><strong>$10&ndash;$50</strong></li>
+	      </ul>
+	      <button>(PLACEHOLDER FOR BUTTON)</button>
+	      <img src="../images/csa/illus_1.png" style="max-width: 100%; display:inline-block; margin-bottom: 1em;" alt="Print CSA illustration" />
+
+	   </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+<!------------ Shipping ------------------------->
+
+	<div class="grid-item3">
+	  <div class="colorblock8" style="">
+		  <h2 style= "color: white; background-color: darkviolet; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">* Shipping/Receiving</h2>
+		  <p>Shipping for the CSA is <strong style= "color: white; background-color: fuchsia;">$20 per share</strong>.</p> 
+		  <p>If you are <strong>local to Providence, RI</strong>, you may elect to pick up your shares at the Binch Press X QAW studio. Pick-ups will be available during Open Library Hours (second Sunday of each month).</p>	      
+	   </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+
+  	
+<!------------ Institution Subscription ------------------------->
+
+	<div class="grid-item3">
+	  <div class="colorblock20" style="">
+		  <h2 style= "color: black; background-color: white; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Institutional Support</h2>
+		  <p><strong>Are you an Arts Institution looking to support the studio?</strong> We&rsquo;ve set aside a limited number of shares for your collection.</p>
+		  <ul>
+	      	<li><strong>Giving back to your arts community</strong></li>
+	        <li><strong>Only five shares available!</strong></li>
+	      </ul>
+	      <p><strong>Get in touch</strong> with the studio to inquire about getting involved!</p>
+	      
+	   </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+<!------------ image ------------------------------------>
+  	
+  	<div class="grid-item3">
+	  <div class="colorblock8" style="">
+		<img src="../images/csa/guy1.png" style="max-width: 49%; display:inline-block;" alt="Subscribe to the Print CSA" />
+	  	<img src="../images/csa/guy2.png" style="max-width: 49%; display:inline-block;" alt="Subscribe to the Print CSA" />
+	  </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
   
-<!------------ Subscribe/Pricing ------------------------->
-
-  <div style="text-align: left;">
-	  <h2 style= "color: white; background-color: fuchsia; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Ways to Subscribe:</h2>
-	 <div class="featured-module">
-      <h2 style="text-decoration: underline;">Full CSA Share</h2>
-      <ul>
-        <li><strong>$60&ndash;$120</strong></li>
-        <li>The print CSA!</li>
-       
-      </ul>
-      <img src="../images/csa/guy2.png" alt="little guy" />
-    </div>
-    <h2 style= "color: white; background-color: fuchsia; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">On a budget?</h2> 
-    <div class="">
-      <h2 style="text-decoration: underline;">Print of the Season</h2>
-      <ul>
-        <li><strong>$10&ndash;$60</strong></li>
-        <li>One special print</li>
-        
-      </ul>
-      <img src="../images/csa/guy1.png" alt="little guy" />
-    </div>
-    
-    <h2 style= "color: white; background-color: fuchsia; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">A cool institution?</h2>
-    
-    <div class="" style="width: 30%;float:left; padding: 1%;">
-      <h2 style="text-decoration: underline;">Institutions</h2>
-      <ul>
-        <li><strong>$150+</strong></li>
-        <li>Be really cool</li>
-        
-      </ul>
-      <img src="../images/csa/guy3.png" alt="little guy" />
-    </div>
-  </div>
-
-<!------------ image ------------------------------------->
-
- <div style="clear: both; padding: 3em 0;"> 
-  <img src="../images/csa/PRINT-CSA.png" style="max-width: 49%; display:inline-block;" alt="Subscribe to the Print CSA" />
-  <img src="../images/csa/PRINT-CSA.png" style="max-width: 49%; display:inline-block;" alt="Subscribe to the Print CSA" />
-  <h4>
-    Poster by Binch Press X QAW members Felipa Estrela and Jules Zuckerberg. 
-  </h4>
- </div>
+  </div><!-- END GRID CONTAINER -->
+  
 
 <!------------ Fundraising -------------------------------->
 
-  <div style="padding-bottom: 3em;">
-    <h2 style= "color: white; background-color: fuchsia; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Your subscription supports:</h2>
+   <div class="grid-container3" style="max-height: ;">
+  	<div class="grid-item3">
+	  <div class="colorblock9" style="">
+	  	<h2 style= "background-color: white; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Your subscription supports:</h2>
   
-    <ul style="font-size: 3rem; margin: 0 0 .5em; line-height: 3.5rem;">
-        <li>Equipment maintenance</li>
-        <li>Purchasing new materials</li>
-        <li>Improving studio accessibility</li>
-        <li>Paying studio staff</li>
-        <li>The continuation of a queer/trans cooperative printshop</li>
-    </ul>
-  </div>
-
-<!------------ image ------------------------------------->
-
-  <h2><img src="../images/csa/illus_2.png" style="max-width: 100%; display:inline-block; margin-bottom: 1em;" alt="Print CSA illustration" /></h2>
+	    <ul style="font-size: 3rem; margin: 0 0 .5em; line-height: 3.5rem;color: white;">
+	        <li>Equipment maintenance</li>
+	        <li>Purchasing new materials</li>
+	        <li>Improving studio accessibility</li>
+	        <li>Paying studio staff</li>
+	        <li>The continuation of a queer/trans cooperative printshop</li>
+	    </ul>
+	  </div><!-- END COLORBLOCK -->
+  	</div><!-- END GRID ITEM -->
+  	
+<!------------ image ------------------------------------>
+  	
+  	<div class="grid-item3">
+	  	<img src="../images/csa/website_share%20images.png" style="max-width: 100%; display:inline-block;" alt="Subscribe to the Print CSA" />  	
+  	</div><!-- END GRID ITEM -->
+  	
+  </div><!-- END GRID CONTAINER -->
 
 
 <!------------ CONTACT ------------------------------------->
