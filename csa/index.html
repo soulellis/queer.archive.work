@@ -37,6 +37,11 @@ h4 {
   text-align: left;
 }
 
+.grid-item3 h2 {
+  font-size: 2.75rem;
+  line-height: 1em;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto ;
@@ -105,55 +110,68 @@ h4 {
   max-width: 100%;
 }
 
+.grid-item3 ul {
+  margin: .5em auto;
+}
+
 @media screen and (max-width: 1000px) {
-.grid-container {
-  column-count: 2;
-  grid-template-columns: auto auto auto auto auto auto;
-  background-color: black;
-  padding: 0px;
-}
-
-.grid-container3 {
-  column-count: 1;
-  grid-template-columns: 100%;
-  padding: none;
-}
-
-.grid-item {
-  display: inline-block;
-  background-color: none;
-  border: none;
-  padding: 1rem;
-  font-size: 3vw;
-  color: blueviolet;
-  text-align: center;
-}
-
-.grid-item2 {
-  display: inline-block;
-  width: 100%;
-  background-color: none;
-  border: none;
-  padding: 5px;
-  font-size: 3vw;
-  color: black;
-  background-color: none;
-  text-align: left;
-  color: black
-}
-
-.grid-item3 {
-  display: inline-block;
-  width: 100%;
-  background-color: none;
-  border: none;
-  padding: 5px;
-  font-size: 4vw;
-  color: black;
-  background-color: none;
-  text-align: left;
-  color: black
-}
+  .grid-container {
+    column-count: 2;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: black;
+    padding: 0px;
+  }
+  
+  .grid-container3 {
+    column-count: 1;
+    grid-template-columns: 100%;
+    padding: none;
+  }
+  
+  .grid-item {
+    display: inline-block;
+    background-color: none;
+    border: none;
+    padding: 1rem;
+    font-size: 3vw;
+    color: blueviolet;
+    text-align: center;
+  }
+  
+  .grid-item2 {
+    display: inline-block;
+    width: 100%;
+    background-color: none;
+    border: none;
+    padding: 5px;
+    font-size: 3vw;
+    color: black;
+    background-color: none;
+    text-align: left;
+    color: black
+  }
+  
+  .grid-item3 {
+    display: inline-block;
+    width: 100%;
+    background-color: none;
+    border: none;
+    padding: 5px;
+    font-size: 5vw;
+    color: black;
+    background-color: none;
+    text-align: left;
+    color: black
+  }
+  
+  .grid-item3 p {
+    line-height: 1.25em;
+  }
+  
+  .features-list { 
+    margin: 0 0 .5em;
+    color: white;
+  }
 }
 
 
@@ -177,22 +195,54 @@ h4 {
 
 @media screen and (max-width: 800px) {
 
-.grid-container {
+  .grid-container {
+    column-count: 1;
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+  
+  .grid-item {
+    background-color: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5em;
+    color: blueviolet;
+    text-align: left;
+    line-height: 1vh;
+  }
+
+}
+
+.capped-grid1 {
   column-count: 1;
-  grid-template-columns: auto;
-  padding: 5px;
 }
 
-.grid-item {
-  background-color: none;
-  border: none;
-  padding: 1rem;
-  font-size: 1.5em;
-  color: blueviolet;
-  text-align: left;
-  line-height: 1vh;
+.features-list li {
+  font-weight: bold;
+  color: white;
 }
 
+@media screen and (min-width: 76em) {
+  .capped-grid1 {
+    max-height: 40em;
+    column-count: 2;
+  }
+  
+  .features-list {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  
+  .grid-item3 h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 83em) {
+  .capped-grid1 {
+    max-height: 37em;
+  }
 }
 
 .rainbow-roll {
@@ -259,12 +309,14 @@ h4 {
 
 	<div class="grid-item3">
 	  <div class="colorblock8" style="">
-		  <h2 style= "color: white;background-color: fuchsia; display: inline-block;text-align: left;padding:0;">Full CSA Share</h2>
+		  <h2 style= "color: white;background-color: fuchsia; display: inline-block;text-align: left;padding:0;">Full CSA Subscription</h2>
 		  <ul>
-	      	<li><strong>Four to six prints</strong> &mdash; a beautiful variety</li>
-	      	<li><strong>Limited Edition!</strong></li>
+	      	<li><strong>Four CSA shares, released seasonally</strong> (every 3 months!)</li>
+            <li><strong>Each share contains four to six printed goods</strong></li>
+	      	<li><strong>A beautiful variety of Limited Edition art!</strong></li>
 	      	<li><strong>Hand-printed mailer envelopes</strong>*</li>
-	        <li><strong>$60&ndash;$120</strong></li>
+            
+	        <li><strong>$60&ndash;$120 per share</strong></li>
 	      </ul>
 	      <button>(PLACEHOLDER FOR BUTTON)</button>
 	      <img src="../images/csa/Csa-mail-clutter.png" style="max-width: 100%; display:inline-block;" alt="Print CSA illustration" />
@@ -299,7 +351,7 @@ h4 {
 		  <p><strong>Is a full share too much of a commitment?</strong> The Print-Of-The-Season subscription is perfect for you!</p>
 		  <ul>
 	      	<li><strong>One beautiful print per season</strong></li>
-	        <li><strong>$10&ndash;$50</strong></li>
+	        <li><strong>$10&ndash;$50 per share</strong></li>
 	      </ul>
 	      <button>(PLACEHOLDER FOR BUTTON)</button>
 	      <img src="../images/csa/Csa-art-clutter.png" style="max-width: 100%; display:inline-block;" alt="Print CSA illustration" />
@@ -313,7 +365,8 @@ h4 {
 	  <div class="colorblock8" style="">
 		  <h2 style= "color: white; background-color: darkviolet; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">* Shipping/Receiving</h2>
 		  <p>Shipping for the CSA is <strong style= "color: white; background-color: fuchsia;">$20 per share</strong>.</p> 
-		  <p>If you are <strong>local to Providence, RI</strong>, you may elect to pick up your shares at the Binch Press X QAW studio. Pick-ups will be available during Open Library Hours (second Sunday of each month).</p>	      
+		  <p>If you are <strong>local to Providence, RI</strong>, you may elect to pick up your shares at the Binch Press X QAW studio. Pick-ups will be available during Open Library Hours (<a href="https://queer.archive.work/library/index.html" target+"_blank">every other Sunday</a>).</p>
+      <p style="font-size: .5em;"><em>(NOTE: Shares picked up in-person will only be held for six [6] months from when first available.)</em></p>	      
 	   </div><!-- END COLORBLOCK -->
   	</div><!-- END GRID ITEM -->
 
@@ -352,12 +405,12 @@ h4 {
 
 <!------------ Fundraising -------------------------------->
 
-   <div class="grid-container3" style="max-height: 32em;">
+   <div class="grid-container3 capped-grid1">
   	<div class="grid-item3">
 	  <div class="colorblock9" style="">
 	  	<h2 style= "background-color: white; display: inline-block;text-align: left;margin-bottom:.5em;padding:0;">Your subscription supports:</h2>
   
-	    <ul style="font-size: 3rem; margin: 0 0 .5em; line-height: 3.5rem;color: white;">
+	    <ul class="features-list">
 	        <li>Equipment maintenance</li>
 	        <li>Purchasing new materials</li>
 	        <li>Improving studio accessibility</li>
@@ -379,6 +432,13 @@ h4 {
     </div><!-- END GRID ITEM -->
   	
   </div><!-- END GRID CONTAINER -->
+  
+  
+<!------------ Acknowledgement ----------------------------->
+
+<div class="colorblock8" align="center" style="margin-bottom: 1em;" >
+  <p><em style="color:darkviolet; font-size:1.25em;">The Binch Press X QAW Print CSA is made possible thanks to funding from the <br><a href="https://www.interlacefund.org/" target="_blank">Interlace Grant Fund</a> and the <a href="https://warholfoundation.org/" target="_blank">Andy Warhol Foundation for the Visual Arts Regional Regranting Program</a>.</em></p>
+</div>
 
 
 <!------------ CONTACT ------------------------------------->
