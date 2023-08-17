@@ -133,11 +133,15 @@ h4 {
 
 .csa-form input[type=submit]{
                 padding: 15px 30px;
-                background-color: #000;
+                background-color: fuchsia;
                 color: #fff;
                 width: 100%;
-                margin-top: 15px;
+                margin-top: 30px;
                 margin-bottom: 50px;
+}
+
+.csa-form input[type=submit]:hover{
+  background-color: black;
 }
 
 
@@ -262,7 +266,7 @@ h4 {
 <br>
 <br>
 <div class="colorblock8" align="left" >
-  <h1 style="color: black; line-height: 5.5rem">CSA Full Share Signup</h1>
+  <h1 style="color: black; line-height: 5.5rem">CSA <span style="background-color: fuchsia;color: white;">Full Share</span> Signup</h1>
   <br>
 
 
@@ -272,16 +276,25 @@ h4 {
   	<div class="grid-item3">
 	  <div class="colorblock8" style="">
 	    <h2 style="text-align: left; margin-bottom: .5em; font-size: 2.5rem;line-height: 1.25em;">
-	      Blurb about sign up goes here! Make sure to include:
+	      Please read the following before signing up through the form at the bottom of this page:
         <ul>
-          <li>Make sure your shipping address is correct when PayPal asks you to confirm it</li>
-          <li>Add $5-10 dollars to your monthly contribution amount if you are requestion Standard Mail to account for shipping options</li>
-          <li>If you select Library Hours Pickup, please come pick up your share... language from Cathy</li>
+          <li>Make sure your <span style="background-color: darkviolet;color: white;">shipping address</span> is correct when checking out through PayPal. </li>
+          <li>If you are requesting Standard Mail, <span style="background-color: fuchsia;color: white;">Add $5-10 dollars</span> to your monthly contribution amount to cover shipping costs.</li>
+          <li>Though the CSA is distributed seasonaly, you will be <span style="background-color: darkviolet;color: white;">billed monthly</span> for a third of the seasonal cost.</li>
+          <li>Seasonal shares will be available in...<ul>
+            <li>Fall 🎃 (September 2023)</li>
+            <li>Winter ❄️ (December 2023)</li>
+            <li>Spring 🌱 (March 2024)</li>
+            <li>Summer ☀️ (June 2024)</li>
+          </ul></li>
+          <li>Shares will be available for pick-up or sent out at the first Binch/QAW Open Library Hours of each season. Open Library Hours is every other Sunday from 12-3pm at 400 Harris Ave. Unit F in Providence. For more accurate dates and times, consult <a href="https://instagram.com/queerwork">our studios instagram.</a></li>
+          <li>If you select Library Hours Pickup, please pick up your share as soon as possible. Shares that aren't picked up after six months will be donated back to the studio.</li>
         </ul>
 	    </h2>
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="csa-form">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YCK8G3HFSRNQ6">
+<input type="hidden" name="hosted_button_id" value="7V9FN5XR578Y4">
 <div>
 <input type="hidden" name="on2" value="Name">Name
 <input type="text" name="os2" maxlength="200" required>
